@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kinlonwong/Desktop/Code/datastruct/PAT/1013_Battle_Over_Cities.cpp
+iostream
+/Users/kinlonwong/Desktop/Code/datastruct/PAT/iostream
+vector
+/Users/kinlonwong/Desktop/Code/datastruct/PAT/vector
+queue
+/Users/kinlonwong/Desktop/Code/datastruct/PAT/queue
+

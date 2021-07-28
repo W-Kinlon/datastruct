@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/1007_Maximum_Subsequence_Sum.dir/PAT/1007_Maximum_Subsequence_Sum.cpp.o -o 1007_Maximum_Subsequence_Sum 

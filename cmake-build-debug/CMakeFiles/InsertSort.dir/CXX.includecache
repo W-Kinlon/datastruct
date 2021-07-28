@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kinlonwong/Desktop/Code/datastruct/8Sort/alogrithms.cpp
+iostream
+/Users/kinlonwong/Desktop/Code/datastruct/8Sort/iostream
+

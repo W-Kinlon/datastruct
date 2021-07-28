@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/calculateExpression.cpp
+stack
+/Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/stack
+queue
+/Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/queue
+string
+/Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/string
+iostream
+/Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/iostream
+
