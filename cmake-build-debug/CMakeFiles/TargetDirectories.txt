@@ -40,5 +40,6 @@
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/PAT_1003_Emergency2.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/PAT_1003_Emergency.dir
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/algorithms.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/first.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/datastruct.dir

@@ -1637,6 +1637,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="algorithms">
+				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithms"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="algorithms/fast">
+				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 algorithms/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="first">
 				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/first" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
@@ -1763,16 +1803,19 @@
 		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/4Tree/Tree.cpp">
 			<Option target="Tree"/>
 		</Unit>
-		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp">
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp">
 			<Option target="BFS___Single_source_shortest_path_of_weighted_graph"/>
 		</Unit>
-		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/6graph/Graph___AdjacencyTable.cpp">
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/5Graph/Graph___AdjacencyTable.cpp">
 			<Option target="Graph___AdjacencyTableMethod"/>
 		</Unit>
-		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/6graph/dijkstra__example1.cpp">
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/5Graph/dijkstra__example1.cpp">
 			<Option target="dijkstra__example1"/>
 		</Unit>
-		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/8Sort/alogrithms.cpp">
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/6Search/algorithms.cpp">
+			<Option target="algorithms"/>
+		</Unit>
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/7Sort/alogrithms.cpp">
 			<Option target="InsertSort"/>
 		</Unit>
 		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/Blue_Bridge_Cup/001_House_number_making .cpp">

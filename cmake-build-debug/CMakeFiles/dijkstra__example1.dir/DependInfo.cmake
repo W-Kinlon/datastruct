@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kinlonwong/Desktop/Code/datastruct/6graph/dijkstra__example1.cpp" "/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/dijkstra__example1.dir/6graph/dijkstra__example1.cpp.o"
+  "/Users/kinlonwong/Desktop/Code/datastruct/5Graph/dijkstra__example1.cpp" "/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

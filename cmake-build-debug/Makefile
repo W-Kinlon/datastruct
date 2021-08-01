@@ -650,6 +650,19 @@ PAT_1003_Emergency/fast:
 .PHONY : PAT_1003_Emergency/fast
 
 #=============================================================================
+# Target rules for targets named algorithms
+
+# Build rule for target.
+algorithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 algorithms
+.PHONY : algorithms
+
+# fast build rule for target.
+algorithms/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
+.PHONY : algorithms/fast
+
+#=============================================================================
 # Target rules for targets named first
 
 # Build rule for target.
@@ -1080,113 +1093,140 @@ datastruct/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/4Tree/Tree.cpp.s
 .PHONY : 4Tree/Tree.cpp.s
 
-6graph/BFS___Single_source_shortest_path_of_weighted_graph.o: 6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
+5Graph/BFS___Single_source_shortest_path_of_weighted_graph.o: 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
 
-.PHONY : 6graph/BFS___Single_source_shortest_path_of_weighted_graph.o
-
-# target to build an object file
-6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
-.PHONY : 6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
-
-6graph/BFS___Single_source_shortest_path_of_weighted_graph.i: 6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i
-
-.PHONY : 6graph/BFS___Single_source_shortest_path_of_weighted_graph.i
-
-# target to preprocess a source file
-6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i
-.PHONY : 6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i
-
-6graph/BFS___Single_source_shortest_path_of_weighted_graph.s: 6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
-
-.PHONY : 6graph/BFS___Single_source_shortest_path_of_weighted_graph.s
-
-# target to generate assembly for a file
-6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
-.PHONY : 6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
-
-6graph/Graph___AdjacencyTable.o: 6graph/Graph___AdjacencyTable.cpp.o
-
-.PHONY : 6graph/Graph___AdjacencyTable.o
+.PHONY : 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.o
 
 # target to build an object file
-6graph/Graph___AdjacencyTable.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graph___AdjacencyTableMethod.dir/build.make CMakeFiles/Graph___AdjacencyTableMethod.dir/6graph/Graph___AdjacencyTable.cpp.o
-.PHONY : 6graph/Graph___AdjacencyTable.cpp.o
+5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
+.PHONY : 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
 
-6graph/Graph___AdjacencyTable.i: 6graph/Graph___AdjacencyTable.cpp.i
+5Graph/BFS___Single_source_shortest_path_of_weighted_graph.i: 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i
 
-.PHONY : 6graph/Graph___AdjacencyTable.i
+.PHONY : 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.i
 
 # target to preprocess a source file
-6graph/Graph___AdjacencyTable.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graph___AdjacencyTableMethod.dir/build.make CMakeFiles/Graph___AdjacencyTableMethod.dir/6graph/Graph___AdjacencyTable.cpp.i
-.PHONY : 6graph/Graph___AdjacencyTable.cpp.i
+5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i
+.PHONY : 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i
 
-6graph/Graph___AdjacencyTable.s: 6graph/Graph___AdjacencyTable.cpp.s
+5Graph/BFS___Single_source_shortest_path_of_weighted_graph.s: 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
 
-.PHONY : 6graph/Graph___AdjacencyTable.s
+.PHONY : 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.s
 
 # target to generate assembly for a file
-6graph/Graph___AdjacencyTable.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graph___AdjacencyTableMethod.dir/build.make CMakeFiles/Graph___AdjacencyTableMethod.dir/6graph/Graph___AdjacencyTable.cpp.s
-.PHONY : 6graph/Graph___AdjacencyTable.cpp.s
+5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
+.PHONY : 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
 
-6graph/dijkstra__example1.o: 6graph/dijkstra__example1.cpp.o
+5Graph/Graph___AdjacencyTable.o: 5Graph/Graph___AdjacencyTable.cpp.o
 
-.PHONY : 6graph/dijkstra__example1.o
+.PHONY : 5Graph/Graph___AdjacencyTable.o
 
 # target to build an object file
-6graph/dijkstra__example1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/6graph/dijkstra__example1.cpp.o
-.PHONY : 6graph/dijkstra__example1.cpp.o
+5Graph/Graph___AdjacencyTable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graph___AdjacencyTableMethod.dir/build.make CMakeFiles/Graph___AdjacencyTableMethod.dir/5Graph/Graph___AdjacencyTable.cpp.o
+.PHONY : 5Graph/Graph___AdjacencyTable.cpp.o
 
-6graph/dijkstra__example1.i: 6graph/dijkstra__example1.cpp.i
+5Graph/Graph___AdjacencyTable.i: 5Graph/Graph___AdjacencyTable.cpp.i
 
-.PHONY : 6graph/dijkstra__example1.i
+.PHONY : 5Graph/Graph___AdjacencyTable.i
 
 # target to preprocess a source file
-6graph/dijkstra__example1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/6graph/dijkstra__example1.cpp.i
-.PHONY : 6graph/dijkstra__example1.cpp.i
+5Graph/Graph___AdjacencyTable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graph___AdjacencyTableMethod.dir/build.make CMakeFiles/Graph___AdjacencyTableMethod.dir/5Graph/Graph___AdjacencyTable.cpp.i
+.PHONY : 5Graph/Graph___AdjacencyTable.cpp.i
 
-6graph/dijkstra__example1.s: 6graph/dijkstra__example1.cpp.s
+5Graph/Graph___AdjacencyTable.s: 5Graph/Graph___AdjacencyTable.cpp.s
 
-.PHONY : 6graph/dijkstra__example1.s
+.PHONY : 5Graph/Graph___AdjacencyTable.s
 
 # target to generate assembly for a file
-6graph/dijkstra__example1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/6graph/dijkstra__example1.cpp.s
-.PHONY : 6graph/dijkstra__example1.cpp.s
+5Graph/Graph___AdjacencyTable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graph___AdjacencyTableMethod.dir/build.make CMakeFiles/Graph___AdjacencyTableMethod.dir/5Graph/Graph___AdjacencyTable.cpp.s
+.PHONY : 5Graph/Graph___AdjacencyTable.cpp.s
 
-8Sort/alogrithms.o: 8Sort/alogrithms.cpp.o
+5Graph/dijkstra__example1.o: 5Graph/dijkstra__example1.cpp.o
 
-.PHONY : 8Sort/alogrithms.o
+.PHONY : 5Graph/dijkstra__example1.o
 
 # target to build an object file
-8Sort/alogrithms.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.o
-.PHONY : 8Sort/alogrithms.cpp.o
+5Graph/dijkstra__example1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.o
+.PHONY : 5Graph/dijkstra__example1.cpp.o
 
-8Sort/alogrithms.i: 8Sort/alogrithms.cpp.i
+5Graph/dijkstra__example1.i: 5Graph/dijkstra__example1.cpp.i
 
-.PHONY : 8Sort/alogrithms.i
+.PHONY : 5Graph/dijkstra__example1.i
 
 # target to preprocess a source file
-8Sort/alogrithms.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.i
-.PHONY : 8Sort/alogrithms.cpp.i
+5Graph/dijkstra__example1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.i
+.PHONY : 5Graph/dijkstra__example1.cpp.i
 
-8Sort/alogrithms.s: 8Sort/alogrithms.cpp.s
+5Graph/dijkstra__example1.s: 5Graph/dijkstra__example1.cpp.s
 
-.PHONY : 8Sort/alogrithms.s
+.PHONY : 5Graph/dijkstra__example1.s
 
 # target to generate assembly for a file
-8Sort/alogrithms.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.s
-.PHONY : 8Sort/alogrithms.cpp.s
+5Graph/dijkstra__example1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.s
+.PHONY : 5Graph/dijkstra__example1.cpp.s
+
+6Search/algorithms.o: 6Search/algorithms.cpp.o
+
+.PHONY : 6Search/algorithms.o
+
+# target to build an object file
+6Search/algorithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/6Search/algorithms.cpp.o
+.PHONY : 6Search/algorithms.cpp.o
+
+6Search/algorithms.i: 6Search/algorithms.cpp.i
+
+.PHONY : 6Search/algorithms.i
+
+# target to preprocess a source file
+6Search/algorithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/6Search/algorithms.cpp.i
+.PHONY : 6Search/algorithms.cpp.i
+
+6Search/algorithms.s: 6Search/algorithms.cpp.s
+
+.PHONY : 6Search/algorithms.s
+
+# target to generate assembly for a file
+6Search/algorithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/6Search/algorithms.cpp.s
+.PHONY : 6Search/algorithms.cpp.s
+
+7Sort/alogrithms.o: 7Sort/alogrithms.cpp.o
+
+.PHONY : 7Sort/alogrithms.o
+
+# target to build an object file
+7Sort/alogrithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.o
+.PHONY : 7Sort/alogrithms.cpp.o
+
+7Sort/alogrithms.i: 7Sort/alogrithms.cpp.i
+
+.PHONY : 7Sort/alogrithms.i
+
+# target to preprocess a source file
+7Sort/alogrithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.i
+.PHONY : 7Sort/alogrithms.cpp.i
+
+7Sort/alogrithms.s: 7Sort/alogrithms.cpp.s
+
+.PHONY : 7Sort/alogrithms.s
+
+# target to generate assembly for a file
+7Sort/alogrithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.s
+.PHONY : 7Sort/alogrithms.cpp.s
 
 Blue_Bridge_Cup/001_House_number_making_.o: Blue_Bridge_Cup/001_House_number_making_.cpp.o
 
@@ -1850,6 +1890,7 @@ help:
 	@echo "... SeqStack"
 	@echo "... SqQueue"
 	@echo "... Tree"
+	@echo "... algorithms"
 	@echo "... datastruct"
 	@echo "... demo"
 	@echo "... demo1"
@@ -1904,18 +1945,21 @@ help:
 	@echo "... 4Tree/Tree.o"
 	@echo "... 4Tree/Tree.i"
 	@echo "... 4Tree/Tree.s"
-	@echo "... 6graph/BFS___Single_source_shortest_path_of_weighted_graph.o"
-	@echo "... 6graph/BFS___Single_source_shortest_path_of_weighted_graph.i"
-	@echo "... 6graph/BFS___Single_source_shortest_path_of_weighted_graph.s"
-	@echo "... 6graph/Graph___AdjacencyTable.o"
-	@echo "... 6graph/Graph___AdjacencyTable.i"
-	@echo "... 6graph/Graph___AdjacencyTable.s"
-	@echo "... 6graph/dijkstra__example1.o"
-	@echo "... 6graph/dijkstra__example1.i"
-	@echo "... 6graph/dijkstra__example1.s"
-	@echo "... 8Sort/alogrithms.o"
-	@echo "... 8Sort/alogrithms.i"
-	@echo "... 8Sort/alogrithms.s"
+	@echo "... 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.o"
+	@echo "... 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.i"
+	@echo "... 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.s"
+	@echo "... 5Graph/Graph___AdjacencyTable.o"
+	@echo "... 5Graph/Graph___AdjacencyTable.i"
+	@echo "... 5Graph/Graph___AdjacencyTable.s"
+	@echo "... 5Graph/dijkstra__example1.o"
+	@echo "... 5Graph/dijkstra__example1.i"
+	@echo "... 5Graph/dijkstra__example1.s"
+	@echo "... 6Search/algorithms.o"
+	@echo "... 6Search/algorithms.i"
+	@echo "... 6Search/algorithms.s"
+	@echo "... 7Sort/alogrithms.o"
+	@echo "... 7Sort/alogrithms.i"
+	@echo "... 7Sort/alogrithms.s"
 	@echo "... Blue_Bridge_Cup/001_House_number_making_.o"
 	@echo "... Blue_Bridge_Cup/001_House_number_making_.i"
 	@echo "... Blue_Bridge_Cup/001_House_number_making_.s"

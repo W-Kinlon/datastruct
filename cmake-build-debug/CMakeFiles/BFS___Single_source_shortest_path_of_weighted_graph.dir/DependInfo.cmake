@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kinlonwong/Desktop/Code/datastruct/6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp" "/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o"
+  "/Users/kinlonwong/Desktop/Code/datastruct/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp" "/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.o"
+  "CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.o"
   "InsertSort"
   "InsertSort.pdb"
 )

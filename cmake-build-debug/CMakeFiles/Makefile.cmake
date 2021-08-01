@@ -90,6 +90,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/PAT_1003_Emergency2.dir/DependInfo.cmake"
   "CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/DependInfo.cmake"
   "CMakeFiles/PAT_1003_Emergency.dir/DependInfo.cmake"
+  "CMakeFiles/algorithms.dir/DependInfo.cmake"
   "CMakeFiles/first.dir/DependInfo.cmake"
   "CMakeFiles/datastruct.dir/DependInfo.cmake"
   )

@@ -76,27 +76,27 @@ include CMakeFiles/InsertSort.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/InsertSort.dir/flags.make
 
-CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.o: CMakeFiles/InsertSort.dir/flags.make
-CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.o: ../8Sort/alogrithms.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/8Sort/alogrithms.cpp
+CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.o: CMakeFiles/InsertSort.dir/flags.make
+CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.o: ../7Sort/alogrithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/7Sort/alogrithms.cpp
 
-CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/8Sort/alogrithms.cpp > CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.i
+CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/7Sort/alogrithms.cpp > CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.i
 
-CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/8Sort/alogrithms.cpp -o CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.s
+CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/7Sort/alogrithms.cpp -o CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.s
 
 # Object files for target InsertSort
 InsertSort_OBJECTS = \
-"CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.o"
+"CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.o"
 
 # External object files for target InsertSort
 InsertSort_EXTERNAL_OBJECTS =
 
-InsertSort: CMakeFiles/InsertSort.dir/8Sort/alogrithms.cpp.o
+InsertSort: CMakeFiles/InsertSort.dir/7Sort/alogrithms.cpp.o
 InsertSort: CMakeFiles/InsertSort.dir/build.make
 InsertSort: CMakeFiles/InsertSort.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable InsertSort"
