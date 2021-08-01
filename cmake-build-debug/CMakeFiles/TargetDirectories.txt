@@ -1,3 +1,5 @@
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/7_2.dir
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/7_1.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/matchBracket.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/1012.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/demo1.dir
@@ -8,6 +10,7 @@
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/p80.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/SqQueue.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/LinkStack.dir
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/demo.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/DoubleLinkList.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/CircleQueue.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/1002_for_Polynomials.dir

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kinlonwong/Desktop/Code/datastruct/3Tree/Tree.cpp" "/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/Tree.dir/3Tree/Tree.cpp.o"
+  "/Users/kinlonwong/Desktop/Code/datastruct/4Tree/Tree.cpp" "/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/Tree.dir/4Tree/Tree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

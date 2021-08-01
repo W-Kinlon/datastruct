@@ -72,6 +72,8 @@ CMAKE_BINARY_DIR = /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/7_2.dir/all
+all: CMakeFiles/7_1.dir/all
 all: CMakeFiles/matchBracket.dir/all
 all: CMakeFiles/1012.dir/all
 all: CMakeFiles/demo1.dir/all
@@ -81,6 +83,7 @@ all: CMakeFiles/LinkQueue.dir/all
 all: CMakeFiles/p80.dir/all
 all: CMakeFiles/SqQueue.dir/all
 all: CMakeFiles/LinkStack.dir/all
+all: CMakeFiles/demo.dir/all
 all: CMakeFiles/DoubleLinkList.dir/all
 all: CMakeFiles/CircleQueue.dir/all
 all: CMakeFiles/1002_for_Polynomials.dir/all
@@ -120,6 +123,8 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/7_2.dir/clean
+clean: CMakeFiles/7_1.dir/clean
 clean: CMakeFiles/matchBracket.dir/clean
 clean: CMakeFiles/1012.dir/clean
 clean: CMakeFiles/demo1.dir/clean
@@ -129,6 +134,7 @@ clean: CMakeFiles/LinkQueue.dir/clean
 clean: CMakeFiles/p80.dir/clean
 clean: CMakeFiles/SqQueue.dir/clean
 clean: CMakeFiles/LinkStack.dir/clean
+clean: CMakeFiles/demo.dir/clean
 clean: CMakeFiles/DoubleLinkList.dir/clean
 clean: CMakeFiles/CircleQueue.dir/clean
 clean: CMakeFiles/1002_for_Polynomials.dir/clean
@@ -163,13 +169,67 @@ clean: CMakeFiles/datastruct.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/7_2.dir
+
+# All Build rule for target.
+CMakeFiles/7_2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2.dir/build.make CMakeFiles/7_2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2.dir/build.make CMakeFiles/7_2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target 7_2"
+.PHONY : CMakeFiles/7_2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/7_2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/7_2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/7_2.dir/rule
+
+# Convenience name for target.
+7_2: CMakeFiles/7_2.dir/rule
+
+.PHONY : 7_2
+
+# clean rule for target.
+CMakeFiles/7_2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2.dir/build.make CMakeFiles/7_2.dir/clean
+.PHONY : CMakeFiles/7_2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/7_1.dir
+
+# All Build rule for target.
+CMakeFiles/7_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1.dir/build.make CMakeFiles/7_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1.dir/build.make CMakeFiles/7_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target 7_1"
+.PHONY : CMakeFiles/7_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/7_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/7_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/7_1.dir/rule
+
+# Convenience name for target.
+7_1: CMakeFiles/7_1.dir/rule
+
+.PHONY : 7_1
+
+# clean rule for target.
+CMakeFiles/7_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1.dir/build.make CMakeFiles/7_1.dir/clean
+.PHONY : CMakeFiles/7_1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/matchBracket.dir
 
 # All Build rule for target.
 CMakeFiles/matchBracket.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/matchBracket.dir/build.make CMakeFiles/matchBracket.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/matchBracket.dir/build.make CMakeFiles/matchBracket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target matchBracket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target matchBracket"
 .PHONY : CMakeFiles/matchBracket.dir/all
 
 # Build rule for subdir invocation for target.
@@ -223,7 +283,7 @@ CMakeFiles/1012.dir/clean:
 CMakeFiles/demo1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target demo1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target demo1"
 .PHONY : CMakeFiles/demo1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -250,7 +310,7 @@ CMakeFiles/demo1.dir/clean:
 CMakeFiles/FullTree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FullTree.dir/build.make CMakeFiles/FullTree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FullTree.dir/build.make CMakeFiles/FullTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target FullTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target FullTree"
 .PHONY : CMakeFiles/FullTree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -277,7 +337,7 @@ CMakeFiles/FullTree.dir/clean:
 CMakeFiles/Tree.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target Tree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target Tree"
 .PHONY : CMakeFiles/Tree.dir/all
 
 # Build rule for subdir invocation for target.
@@ -304,7 +364,7 @@ CMakeFiles/Tree.dir/clean:
 CMakeFiles/LinkQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkQueue.dir/build.make CMakeFiles/LinkQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkQueue.dir/build.make CMakeFiles/LinkQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target LinkQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target LinkQueue"
 .PHONY : CMakeFiles/LinkQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -331,7 +391,7 @@ CMakeFiles/LinkQueue.dir/clean:
 CMakeFiles/p80.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p80.dir/build.make CMakeFiles/p80.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p80.dir/build.make CMakeFiles/p80.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target p80"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target p80"
 .PHONY : CMakeFiles/p80.dir/all
 
 # Build rule for subdir invocation for target.
@@ -358,7 +418,7 @@ CMakeFiles/p80.dir/clean:
 CMakeFiles/SqQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqQueue.dir/build.make CMakeFiles/SqQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SqQueue.dir/build.make CMakeFiles/SqQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target SqQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target SqQueue"
 .PHONY : CMakeFiles/SqQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -385,7 +445,7 @@ CMakeFiles/SqQueue.dir/clean:
 CMakeFiles/LinkStack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkStack.dir/build.make CMakeFiles/LinkStack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkStack.dir/build.make CMakeFiles/LinkStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target LinkStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target LinkStack"
 .PHONY : CMakeFiles/LinkStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -406,13 +466,40 @@ CMakeFiles/LinkStack.dir/clean:
 .PHONY : CMakeFiles/LinkStack.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/demo.dir
+
+# All Build rule for target.
+CMakeFiles/demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target demo"
+.PHONY : CMakeFiles/demo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/demo.dir/rule
+
+# Convenience name for target.
+demo: CMakeFiles/demo.dir/rule
+
+.PHONY : demo
+
+# clean rule for target.
+CMakeFiles/demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/clean
+.PHONY : CMakeFiles/demo.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/DoubleLinkList.dir
 
 # All Build rule for target.
 CMakeFiles/DoubleLinkList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoubleLinkList.dir/build.make CMakeFiles/DoubleLinkList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoubleLinkList.dir/build.make CMakeFiles/DoubleLinkList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target DoubleLinkList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target DoubleLinkList"
 .PHONY : CMakeFiles/DoubleLinkList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -439,7 +526,7 @@ CMakeFiles/DoubleLinkList.dir/clean:
 CMakeFiles/CircleQueue.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CircleQueue.dir/build.make CMakeFiles/CircleQueue.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CircleQueue.dir/build.make CMakeFiles/CircleQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target CircleQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target CircleQueue"
 .PHONY : CMakeFiles/CircleQueue.dir/all
 
 # Build rule for subdir invocation for target.
@@ -520,7 +607,7 @@ CMakeFiles/1012_The_Best_Rank.dir/clean:
 CMakeFiles/Dynamic_allocation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dynamic_allocation.dir/build.make CMakeFiles/Dynamic_allocation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dynamic_allocation.dir/build.make CMakeFiles/Dynamic_allocation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target Dynamic_allocation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target Dynamic_allocation"
 .PHONY : CMakeFiles/Dynamic_allocation.dir/all
 
 # Build rule for subdir invocation for target.
@@ -601,7 +688,7 @@ CMakeFiles/1011_World_Cup_Betting.dir/clean:
 CMakeFiles/p37.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p37.dir/build.make CMakeFiles/p37.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p37.dir/build.make CMakeFiles/p37.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target p37"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=79,80 "Built target p37"
 .PHONY : CMakeFiles/p37.dir/all
 
 # Build rule for subdir invocation for target.
@@ -655,7 +742,7 @@ CMakeFiles/001_House_number_making.dir/clean:
 CMakeFiles/LinkList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkList.dir/build.make CMakeFiles/LinkList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkList.dir/build.make CMakeFiles/LinkList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target LinkList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target LinkList"
 .PHONY : CMakeFiles/LinkList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -844,7 +931,7 @@ CMakeFiles/1006_Sign_In_and_Sign_Out.dir/clean:
 CMakeFiles/InsertSort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target InsertSort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target InsertSort"
 .PHONY : CMakeFiles/InsertSort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -925,7 +1012,7 @@ CMakeFiles/1004_Counting_Leaves.dir/clean:
 CMakeFiles/dijkstra__example1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target dijkstra__example1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target dijkstra__example1"
 .PHONY : CMakeFiles/dijkstra__example1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -952,7 +1039,7 @@ CMakeFiles/dijkstra__example1.dir/clean:
 CMakeFiles/SeqStack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqStack.dir/build.make CMakeFiles/SeqStack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SeqStack.dir/build.make CMakeFiles/SeqStack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target SeqStack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target SeqStack"
 .PHONY : CMakeFiles/SeqStack.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1033,7 +1120,7 @@ CMakeFiles/1009_Product_of_Polynomials.dir/clean:
 CMakeFiles/p66.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p66.dir/build.make CMakeFiles/p66.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p66.dir/build.make CMakeFiles/p66.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target p66"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target p66"
 .PHONY : CMakeFiles/p66.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1060,7 +1147,7 @@ CMakeFiles/p66.dir/clean:
 CMakeFiles/Graph___AdjacencyTableMethod.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graph___AdjacencyTableMethod.dir/build.make CMakeFiles/Graph___AdjacencyTableMethod.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Graph___AdjacencyTableMethod.dir/build.make CMakeFiles/Graph___AdjacencyTableMethod.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target Graph___AdjacencyTableMethod"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target Graph___AdjacencyTableMethod"
 .PHONY : CMakeFiles/Graph___AdjacencyTableMethod.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1087,7 +1174,7 @@ CMakeFiles/Graph___AdjacencyTableMethod.dir/clean:
 CMakeFiles/PAT_1003_Emergency2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT_1003_Emergency2.dir/build.make CMakeFiles/PAT_1003_Emergency2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT_1003_Emergency2.dir/build.make CMakeFiles/PAT_1003_Emergency2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=55,56 "Built target PAT_1003_Emergency2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target PAT_1003_Emergency2"
 .PHONY : CMakeFiles/PAT_1003_Emergency2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1114,7 +1201,7 @@ CMakeFiles/PAT_1003_Emergency2.dir/clean:
 CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target BFS___Single_source_shortest_path_of_weighted_graph"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target BFS___Single_source_shortest_path_of_weighted_graph"
 .PHONY : CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1141,7 +1228,7 @@ CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/clean:
 CMakeFiles/PAT_1003_Emergency.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT_1003_Emergency.dir/build.make CMakeFiles/PAT_1003_Emergency.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT_1003_Emergency.dir/build.make CMakeFiles/PAT_1003_Emergency.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=53,54 "Built target PAT_1003_Emergency"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target PAT_1003_Emergency"
 .PHONY : CMakeFiles/PAT_1003_Emergency.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1168,7 +1255,7 @@ CMakeFiles/PAT_1003_Emergency.dir/clean:
 CMakeFiles/first.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target first"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target first"
 .PHONY : CMakeFiles/first.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1195,7 +1282,7 @@ CMakeFiles/first.dir/clean:
 CMakeFiles/datastruct.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target datastruct"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target datastruct"
 .PHONY : CMakeFiles/datastruct.dir/all
 
 # Build rule for subdir invocation for target.

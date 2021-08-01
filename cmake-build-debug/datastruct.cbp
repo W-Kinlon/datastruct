@@ -17,6 +17,86 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="7_2">
+				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/7_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7_2/fast">
+				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/7_2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7_1">
+				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/7_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="7_1/fast">
+				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/7_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="matchBracket">
 				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/matchBracket" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
@@ -382,6 +462,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 LinkStack/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo">
+				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="demo/fast">
+				<Option output="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/demo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1634,10 +1754,13 @@
 		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/p80.cpp">
 			<Option target="p80"/>
 		</Unit>
-		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/3Tree/FullTree.cpp">
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/3String/demo.cpp">
+			<Option target="demo"/>
+		</Unit>
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/4Tree/FullTree.cpp">
 			<Option target="FullTree"/>
 		</Unit>
-		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/3Tree/Tree.cpp">
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/4Tree/Tree.cpp">
 			<Option target="Tree"/>
 		</Unit>
 		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp">
@@ -1714,6 +1837,12 @@
 		</Unit>
 		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/test_all/demo1.cpp">
 			<Option target="demo1"/>
+		</Unit>
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/test_all/summer_pat/7_1.cpp">
+			<Option target="7_1"/>
+		</Unit>
+		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/test_all/summer_pat/7_2.cpp">
+			<Option target="7_2"/>
 		</Unit>
 		<Unit filename="/Users/kinlonwong/Desktop/Code/datastruct/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

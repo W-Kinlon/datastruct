@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 7_2
+
+# Build rule for target.
+7_2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_2
+.PHONY : 7_2
+
+# fast build rule for target.
+7_2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2.dir/build.make CMakeFiles/7_2.dir/build
+.PHONY : 7_2/fast
+
+#=============================================================================
+# Target rules for targets named 7_1
+
+# Build rule for target.
+7_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_1
+.PHONY : 7_1
+
+# fast build rule for target.
+7_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1.dir/build.make CMakeFiles/7_1.dir/build
+.PHONY : 7_1/fast
+
+#=============================================================================
 # Target rules for targets named matchBracket
 
 # Build rule for target.
@@ -245,6 +271,19 @@ LinkStack: cmake_check_build_system
 LinkStack/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkStack.dir/build.make CMakeFiles/LinkStack.dir/build
 .PHONY : LinkStack/fast
+
+#=============================================================================
+# Target rules for targets named demo
+
+# Build rule for target.
+demo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo
+.PHONY : demo
+
+# fast build rule for target.
+demo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/build
+.PHONY : demo/fast
 
 #=============================================================================
 # Target rules for targets named DoubleLinkList
@@ -960,59 +999,86 @@ datastruct/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p80.dir/build.make CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.s
 .PHONY : 2StackAndQueue/p80.cpp.s
 
-3Tree/FullTree.o: 3Tree/FullTree.cpp.o
+3String/demo.o: 3String/demo.cpp.o
 
-.PHONY : 3Tree/FullTree.o
-
-# target to build an object file
-3Tree/FullTree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FullTree.dir/build.make CMakeFiles/FullTree.dir/3Tree/FullTree.cpp.o
-.PHONY : 3Tree/FullTree.cpp.o
-
-3Tree/FullTree.i: 3Tree/FullTree.cpp.i
-
-.PHONY : 3Tree/FullTree.i
-
-# target to preprocess a source file
-3Tree/FullTree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FullTree.dir/build.make CMakeFiles/FullTree.dir/3Tree/FullTree.cpp.i
-.PHONY : 3Tree/FullTree.cpp.i
-
-3Tree/FullTree.s: 3Tree/FullTree.cpp.s
-
-.PHONY : 3Tree/FullTree.s
-
-# target to generate assembly for a file
-3Tree/FullTree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FullTree.dir/build.make CMakeFiles/FullTree.dir/3Tree/FullTree.cpp.s
-.PHONY : 3Tree/FullTree.cpp.s
-
-3Tree/Tree.o: 3Tree/Tree.cpp.o
-
-.PHONY : 3Tree/Tree.o
+.PHONY : 3String/demo.o
 
 # target to build an object file
-3Tree/Tree.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/3Tree/Tree.cpp.o
-.PHONY : 3Tree/Tree.cpp.o
+3String/demo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/3String/demo.cpp.o
+.PHONY : 3String/demo.cpp.o
 
-3Tree/Tree.i: 3Tree/Tree.cpp.i
+3String/demo.i: 3String/demo.cpp.i
 
-.PHONY : 3Tree/Tree.i
+.PHONY : 3String/demo.i
 
 # target to preprocess a source file
-3Tree/Tree.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/3Tree/Tree.cpp.i
-.PHONY : 3Tree/Tree.cpp.i
+3String/demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/3String/demo.cpp.i
+.PHONY : 3String/demo.cpp.i
 
-3Tree/Tree.s: 3Tree/Tree.cpp.s
+3String/demo.s: 3String/demo.cpp.s
 
-.PHONY : 3Tree/Tree.s
+.PHONY : 3String/demo.s
 
 # target to generate assembly for a file
-3Tree/Tree.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/3Tree/Tree.cpp.s
-.PHONY : 3Tree/Tree.cpp.s
+3String/demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/3String/demo.cpp.s
+.PHONY : 3String/demo.cpp.s
+
+4Tree/FullTree.o: 4Tree/FullTree.cpp.o
+
+.PHONY : 4Tree/FullTree.o
+
+# target to build an object file
+4Tree/FullTree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FullTree.dir/build.make CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.o
+.PHONY : 4Tree/FullTree.cpp.o
+
+4Tree/FullTree.i: 4Tree/FullTree.cpp.i
+
+.PHONY : 4Tree/FullTree.i
+
+# target to preprocess a source file
+4Tree/FullTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FullTree.dir/build.make CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.i
+.PHONY : 4Tree/FullTree.cpp.i
+
+4Tree/FullTree.s: 4Tree/FullTree.cpp.s
+
+.PHONY : 4Tree/FullTree.s
+
+# target to generate assembly for a file
+4Tree/FullTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FullTree.dir/build.make CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.s
+.PHONY : 4Tree/FullTree.cpp.s
+
+4Tree/Tree.o: 4Tree/Tree.cpp.o
+
+.PHONY : 4Tree/Tree.o
+
+# target to build an object file
+4Tree/Tree.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/4Tree/Tree.cpp.o
+.PHONY : 4Tree/Tree.cpp.o
+
+4Tree/Tree.i: 4Tree/Tree.cpp.i
+
+.PHONY : 4Tree/Tree.i
+
+# target to preprocess a source file
+4Tree/Tree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/4Tree/Tree.cpp.i
+.PHONY : 4Tree/Tree.cpp.i
+
+4Tree/Tree.s: 4Tree/Tree.cpp.s
+
+.PHONY : 4Tree/Tree.s
+
+# target to generate assembly for a file
+4Tree/Tree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tree.dir/build.make CMakeFiles/Tree.dir/4Tree/Tree.cpp.s
+.PHONY : 4Tree/Tree.cpp.s
 
 6graph/BFS___Single_source_shortest_path_of_weighted_graph.o: 6graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
 
@@ -1689,6 +1755,60 @@ test_all/demo1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/test_all/demo1.cpp.s
 .PHONY : test_all/demo1.cpp.s
 
+test_all/summer_pat/7_1.o: test_all/summer_pat/7_1.cpp.o
+
+.PHONY : test_all/summer_pat/7_1.o
+
+# target to build an object file
+test_all/summer_pat/7_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1.dir/build.make CMakeFiles/7_1.dir/test_all/summer_pat/7_1.cpp.o
+.PHONY : test_all/summer_pat/7_1.cpp.o
+
+test_all/summer_pat/7_1.i: test_all/summer_pat/7_1.cpp.i
+
+.PHONY : test_all/summer_pat/7_1.i
+
+# target to preprocess a source file
+test_all/summer_pat/7_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1.dir/build.make CMakeFiles/7_1.dir/test_all/summer_pat/7_1.cpp.i
+.PHONY : test_all/summer_pat/7_1.cpp.i
+
+test_all/summer_pat/7_1.s: test_all/summer_pat/7_1.cpp.s
+
+.PHONY : test_all/summer_pat/7_1.s
+
+# target to generate assembly for a file
+test_all/summer_pat/7_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1.dir/build.make CMakeFiles/7_1.dir/test_all/summer_pat/7_1.cpp.s
+.PHONY : test_all/summer_pat/7_1.cpp.s
+
+test_all/summer_pat/7_2.o: test_all/summer_pat/7_2.cpp.o
+
+.PHONY : test_all/summer_pat/7_2.o
+
+# target to build an object file
+test_all/summer_pat/7_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2.dir/build.make CMakeFiles/7_2.dir/test_all/summer_pat/7_2.cpp.o
+.PHONY : test_all/summer_pat/7_2.cpp.o
+
+test_all/summer_pat/7_2.i: test_all/summer_pat/7_2.cpp.i
+
+.PHONY : test_all/summer_pat/7_2.i
+
+# target to preprocess a source file
+test_all/summer_pat/7_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2.dir/build.make CMakeFiles/7_2.dir/test_all/summer_pat/7_2.cpp.i
+.PHONY : test_all/summer_pat/7_2.cpp.i
+
+test_all/summer_pat/7_2.s: test_all/summer_pat/7_2.cpp.s
+
+.PHONY : test_all/summer_pat/7_2.s
+
+# target to generate assembly for a file
+test_all/summer_pat/7_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2.dir/build.make CMakeFiles/7_2.dir/test_all/summer_pat/7_2.cpp.s
+.PHONY : test_all/summer_pat/7_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1713,6 +1833,8 @@ help:
 	@echo "... 1012"
 	@echo "... 1012_The_Best_Rank"
 	@echo "... 1013_Battle_Over_Cities"
+	@echo "... 7_1"
+	@echo "... 7_2"
 	@echo "... BFS___Single_source_shortest_path_of_weighted_graph"
 	@echo "... CircleQueue"
 	@echo "... DoubleLinkList"
@@ -1729,6 +1851,7 @@ help:
 	@echo "... SqQueue"
 	@echo "... Tree"
 	@echo "... datastruct"
+	@echo "... demo"
 	@echo "... demo1"
 	@echo "... dijkstra__example1"
 	@echo "... first"
@@ -1772,12 +1895,15 @@ help:
 	@echo "... 2StackAndQueue/p80.o"
 	@echo "... 2StackAndQueue/p80.i"
 	@echo "... 2StackAndQueue/p80.s"
-	@echo "... 3Tree/FullTree.o"
-	@echo "... 3Tree/FullTree.i"
-	@echo "... 3Tree/FullTree.s"
-	@echo "... 3Tree/Tree.o"
-	@echo "... 3Tree/Tree.i"
-	@echo "... 3Tree/Tree.s"
+	@echo "... 3String/demo.o"
+	@echo "... 3String/demo.i"
+	@echo "... 3String/demo.s"
+	@echo "... 4Tree/FullTree.o"
+	@echo "... 4Tree/FullTree.i"
+	@echo "... 4Tree/FullTree.s"
+	@echo "... 4Tree/Tree.o"
+	@echo "... 4Tree/Tree.i"
+	@echo "... 4Tree/Tree.s"
 	@echo "... 6graph/BFS___Single_source_shortest_path_of_weighted_graph.o"
 	@echo "... 6graph/BFS___Single_source_shortest_path_of_weighted_graph.i"
 	@echo "... 6graph/BFS___Single_source_shortest_path_of_weighted_graph.s"
@@ -1853,6 +1979,12 @@ help:
 	@echo "... test_all/demo1.o"
 	@echo "... test_all/demo1.i"
 	@echo "... test_all/demo1.s"
+	@echo "... test_all/summer_pat/7_1.o"
+	@echo "... test_all/summer_pat/7_1.i"
+	@echo "... test_all/summer_pat/7_1.s"
+	@echo "... test_all/summer_pat/7_2.o"
+	@echo "... test_all/summer_pat/7_2.i"
+	@echo "... test_all/summer_pat/7_2.s"
 .PHONY : help
 
 

@@ -76,27 +76,27 @@ include CMakeFiles/Tree.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Tree.dir/flags.make
 
-CMakeFiles/Tree.dir/3Tree/Tree.cpp.o: CMakeFiles/Tree.dir/flags.make
-CMakeFiles/Tree.dir/3Tree/Tree.cpp.o: ../3Tree/Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tree.dir/3Tree/Tree.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tree.dir/3Tree/Tree.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/3Tree/Tree.cpp
+CMakeFiles/Tree.dir/4Tree/Tree.cpp.o: CMakeFiles/Tree.dir/flags.make
+CMakeFiles/Tree.dir/4Tree/Tree.cpp.o: ../4Tree/Tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tree.dir/4Tree/Tree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tree.dir/4Tree/Tree.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/4Tree/Tree.cpp
 
-CMakeFiles/Tree.dir/3Tree/Tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tree.dir/3Tree/Tree.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/3Tree/Tree.cpp > CMakeFiles/Tree.dir/3Tree/Tree.cpp.i
+CMakeFiles/Tree.dir/4Tree/Tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tree.dir/4Tree/Tree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/4Tree/Tree.cpp > CMakeFiles/Tree.dir/4Tree/Tree.cpp.i
 
-CMakeFiles/Tree.dir/3Tree/Tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tree.dir/3Tree/Tree.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/3Tree/Tree.cpp -o CMakeFiles/Tree.dir/3Tree/Tree.cpp.s
+CMakeFiles/Tree.dir/4Tree/Tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tree.dir/4Tree/Tree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/4Tree/Tree.cpp -o CMakeFiles/Tree.dir/4Tree/Tree.cpp.s
 
 # Object files for target Tree
 Tree_OBJECTS = \
-"CMakeFiles/Tree.dir/3Tree/Tree.cpp.o"
+"CMakeFiles/Tree.dir/4Tree/Tree.cpp.o"
 
 # External object files for target Tree
 Tree_EXTERNAL_OBJECTS =
 
-Tree: CMakeFiles/Tree.dir/3Tree/Tree.cpp.o
+Tree: CMakeFiles/Tree.dir/4Tree/Tree.cpp.o
 Tree: CMakeFiles/Tree.dir/build.make
 Tree: CMakeFiles/Tree.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tree"

@@ -50,6 +50,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/7_2.dir/DependInfo.cmake"
+  "CMakeFiles/7_1.dir/DependInfo.cmake"
   "CMakeFiles/matchBracket.dir/DependInfo.cmake"
   "CMakeFiles/1012.dir/DependInfo.cmake"
   "CMakeFiles/demo1.dir/DependInfo.cmake"
@@ -59,6 +61,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/p80.dir/DependInfo.cmake"
   "CMakeFiles/SqQueue.dir/DependInfo.cmake"
   "CMakeFiles/LinkStack.dir/DependInfo.cmake"
+  "CMakeFiles/demo.dir/DependInfo.cmake"
   "CMakeFiles/DoubleLinkList.dir/DependInfo.cmake"
   "CMakeFiles/CircleQueue.dir/DependInfo.cmake"
   "CMakeFiles/1002_for_Polynomials.dir/DependInfo.cmake"
