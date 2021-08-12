@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -130,6 +130,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named LinkQueue
+
+# Build rule for target.
+LinkQueue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkQueue
+.PHONY : LinkQueue
+
+# fast build rule for target.
+LinkQueue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkQueue.dir/build.make CMakeFiles/LinkQueue.dir/build
+.PHONY : LinkQueue/fast
+
+#=============================================================================
+# Target rules for targets named 7_7
+
+# Build rule for target.
+7_7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_7
+.PHONY : 7_7
+
+# fast build rule for target.
+7_7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_7.dir/build.make CMakeFiles/7_7.dir/build
+.PHONY : 7_7/fast
+
+#=============================================================================
+# Target rules for targets named 7_6
+
+# Build rule for target.
+7_6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_6
+.PHONY : 7_6
+
+# fast build rule for target.
+7_6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_6.dir/build.make CMakeFiles/7_6.dir/build
+.PHONY : 7_6/fast
+
+#=============================================================================
 # Target rules for targets named 7_2
 
 # Build rule for target.
@@ -154,6 +193,19 @@ depend:
 7_1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_1.dir/build.make CMakeFiles/7_1.dir/build
 .PHONY : 7_1/fast
+
+#=============================================================================
+# Target rules for targets named demo1
+
+# Build rule for target.
+demo1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo1
+.PHONY : demo1
+
+# fast build rule for target.
+demo1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/build
+.PHONY : demo1/fast
 
 #=============================================================================
 # Target rules for targets named matchBracket
@@ -182,17 +234,17 @@ matchBracket/fast:
 .PHONY : 1012/fast
 
 #=============================================================================
-# Target rules for targets named demo1
+# Target rules for targets named 002_reduced_fraction
 
 # Build rule for target.
-demo1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 demo1
-.PHONY : demo1
+002_reduced_fraction: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 002_reduced_fraction
+.PHONY : 002_reduced_fraction
 
 # fast build rule for target.
-demo1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/build
-.PHONY : demo1/fast
+002_reduced_fraction/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002_reduced_fraction.dir/build.make CMakeFiles/002_reduced_fraction.dir/build
+.PHONY : 002_reduced_fraction/fast
 
 #=============================================================================
 # Target rules for targets named FullTree
@@ -221,17 +273,30 @@ Tree/fast:
 .PHONY : Tree/fast
 
 #=============================================================================
-# Target rules for targets named LinkQueue
+# Target rules for targets named 7_5
 
 # Build rule for target.
-LinkQueue: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkQueue
-.PHONY : LinkQueue
+7_5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_5
+.PHONY : 7_5
 
 # fast build rule for target.
-LinkQueue/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkQueue.dir/build.make CMakeFiles/LinkQueue.dir/build
-.PHONY : LinkQueue/fast
+7_5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_5.dir/build.make CMakeFiles/7_5.dir/build
+.PHONY : 7_5/fast
+
+#=============================================================================
+# Target rules for targets named 1007_Maximum_Subsequence_Sum
+
+# Build rule for target.
+1007_Maximum_Subsequence_Sum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1007_Maximum_Subsequence_Sum
+.PHONY : 1007_Maximum_Subsequence_Sum
+
+# fast build rule for target.
+1007_Maximum_Subsequence_Sum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1007_Maximum_Subsequence_Sum.dir/build.make CMakeFiles/1007_Maximum_Subsequence_Sum.dir/build
+.PHONY : 1007_Maximum_Subsequence_Sum/fast
 
 #=============================================================================
 # Target rules for targets named p80
@@ -312,6 +377,19 @@ CircleQueue/fast:
 .PHONY : CircleQueue/fast
 
 #=============================================================================
+# Target rules for targets named 7_9
+
+# Build rule for target.
+7_9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_9
+.PHONY : 7_9
+
+# fast build rule for target.
+7_9/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_9.dir/build.make CMakeFiles/7_9.dir/build
+.PHONY : 7_9/fast
+
+#=============================================================================
 # Target rules for targets named 1002_for_Polynomials
 
 # Build rule for target.
@@ -338,6 +416,19 @@ CircleQueue/fast:
 .PHONY : 1012_The_Best_Rank/fast
 
 #=============================================================================
+# Target rules for targets named 1077
+
+# Build rule for target.
+1077: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1077
+.PHONY : 1077
+
+# fast build rule for target.
+1077/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1077.dir/build.make CMakeFiles/1077.dir/build
+.PHONY : 1077/fast
+
+#=============================================================================
 # Target rules for targets named Dynamic_allocation
 
 # Build rule for target.
@@ -349,19 +440,6 @@ Dynamic_allocation: cmake_check_build_system
 Dynamic_allocation/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dynamic_allocation.dir/build.make CMakeFiles/Dynamic_allocation.dir/build
 .PHONY : Dynamic_allocation/fast
-
-#=============================================================================
-# Target rules for targets named 1007_Maximum_Subsequence_Sum
-
-# Build rule for target.
-1007_Maximum_Subsequence_Sum: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1007_Maximum_Subsequence_Sum
-.PHONY : 1007_Maximum_Subsequence_Sum
-
-# fast build rule for target.
-1007_Maximum_Subsequence_Sum/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/1007_Maximum_Subsequence_Sum.dir/build.make CMakeFiles/1007_Maximum_Subsequence_Sum.dir/build
-.PHONY : 1007_Maximum_Subsequence_Sum/fast
 
 #=============================================================================
 # Target rules for targets named 1011_World_Cup_Betting
@@ -388,6 +466,19 @@ p37: cmake_check_build_system
 p37/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p37.dir/build.make CMakeFiles/p37.dir/build
 .PHONY : p37/fast
+
+#=============================================================================
+# Target rules for targets named PAT_1003_Emergency2
+
+# Build rule for target.
+PAT_1003_Emergency2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT_1003_Emergency2
+.PHONY : PAT_1003_Emergency2
+
+# fast build rule for target.
+PAT_1003_Emergency2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT_1003_Emergency2.dir/build.make CMakeFiles/PAT_1003_Emergency2.dir/build
+.PHONY : PAT_1003_Emergency2/fast
 
 #=============================================================================
 # Target rules for targets named 001_House_number_making
@@ -442,6 +533,19 @@ LinkList/fast:
 .PHONY : 1010_Radix/fast
 
 #=============================================================================
+# Target rules for targets named BFS___Single_source_shortest_path_of_weighted_graph
+
+# Build rule for target.
+BFS___Single_source_shortest_path_of_weighted_graph: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BFS___Single_source_shortest_path_of_weighted_graph
+.PHONY : BFS___Single_source_shortest_path_of_weighted_graph
+
+# fast build rule for target.
+BFS___Single_source_shortest_path_of_weighted_graph/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build
+.PHONY : BFS___Single_source_shortest_path_of_weighted_graph/fast
+
+#=============================================================================
 # Target rules for targets named 1013_Battle_Over_Cities
 
 # Build rule for target.
@@ -468,6 +572,32 @@ LinkList/fast:
 .PHONY : 1008_Elevator/fast
 
 #=============================================================================
+# Target rules for targets named alogrithms
+
+# Build rule for target.
+alogrithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 alogrithms
+.PHONY : alogrithms
+
+# fast build rule for target.
+alogrithms/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alogrithms.dir/build.make CMakeFiles/alogrithms.dir/build
+.PHONY : alogrithms/fast
+
+#=============================================================================
+# Target rules for targets named InsertSort
+
+# Build rule for target.
+InsertSort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InsertSort
+.PHONY : InsertSort
+
+# fast build rule for target.
+InsertSort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/build
+.PHONY : InsertSort/fast
+
+#=============================================================================
 # Target rules for targets named 1006_Sign_In_and_Sign_Out2
 
 # Build rule for target.
@@ -492,32 +622,6 @@ LinkList/fast:
 1006_Sign_In_and_Sign_Out/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1006_Sign_In_and_Sign_Out.dir/build.make CMakeFiles/1006_Sign_In_and_Sign_Out.dir/build
 .PHONY : 1006_Sign_In_and_Sign_Out/fast
-
-#=============================================================================
-# Target rules for targets named InsertSort
-
-# Build rule for target.
-InsertSort: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 InsertSort
-.PHONY : InsertSort
-
-# fast build rule for target.
-InsertSort/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/InsertSort.dir/build.make CMakeFiles/InsertSort.dir/build
-.PHONY : InsertSort/fast
-
-#=============================================================================
-# Target rules for targets named 002_reduced_fraction
-
-# Build rule for target.
-002_reduced_fraction: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 002_reduced_fraction
-.PHONY : 002_reduced_fraction
-
-# fast build rule for target.
-002_reduced_fraction/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/002_reduced_fraction.dir/build.make CMakeFiles/002_reduced_fraction.dir/build
-.PHONY : 002_reduced_fraction/fast
 
 #=============================================================================
 # Target rules for targets named 1004_Counting_Leaves
@@ -572,6 +676,19 @@ SeqStack/fast:
 .PHONY : 1004_Counting_Leaves2/fast
 
 #=============================================================================
+# Target rules for targets named 7_8
+
+# Build rule for target.
+7_8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 7_8
+.PHONY : 7_8
+
+# fast build rule for target.
+7_8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_8.dir/build.make CMakeFiles/7_8.dir/build
+.PHONY : 7_8/fast
+
+#=============================================================================
 # Target rules for targets named 1009_Product_of_Polynomials
 
 # Build rule for target.
@@ -611,32 +728,6 @@ Graph___AdjacencyTableMethod/fast:
 .PHONY : Graph___AdjacencyTableMethod/fast
 
 #=============================================================================
-# Target rules for targets named PAT_1003_Emergency2
-
-# Build rule for target.
-PAT_1003_Emergency2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PAT_1003_Emergency2
-.PHONY : PAT_1003_Emergency2
-
-# fast build rule for target.
-PAT_1003_Emergency2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT_1003_Emergency2.dir/build.make CMakeFiles/PAT_1003_Emergency2.dir/build
-.PHONY : PAT_1003_Emergency2/fast
-
-#=============================================================================
-# Target rules for targets named BFS___Single_source_shortest_path_of_weighted_graph
-
-# Build rule for target.
-BFS___Single_source_shortest_path_of_weighted_graph: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BFS___Single_source_shortest_path_of_weighted_graph
-.PHONY : BFS___Single_source_shortest_path_of_weighted_graph
-
-# fast build rule for target.
-BFS___Single_source_shortest_path_of_weighted_graph/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build
-.PHONY : BFS___Single_source_shortest_path_of_weighted_graph/fast
-
-#=============================================================================
 # Target rules for targets named PAT_1003_Emergency
 
 # Build rule for target.
@@ -648,19 +739,6 @@ PAT_1003_Emergency: cmake_check_build_system
 PAT_1003_Emergency/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/PAT_1003_Emergency.dir/build.make CMakeFiles/PAT_1003_Emergency.dir/build
 .PHONY : PAT_1003_Emergency/fast
-
-#=============================================================================
-# Target rules for targets named algorithms
-
-# Build rule for target.
-algorithms: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 algorithms
-.PHONY : algorithms
-
-# fast build rule for target.
-algorithms/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/build
-.PHONY : algorithms/fast
 
 #=============================================================================
 # Target rules for targets named first
@@ -1174,32 +1252,32 @@ datastruct/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.s
 .PHONY : 5Graph/dijkstra__example1.cpp.s
 
-6Search/algorithms.o: 6Search/algorithms.cpp.o
+6Search/alogrithms.o: 6Search/alogrithms.cpp.o
 
-.PHONY : 6Search/algorithms.o
+.PHONY : 6Search/alogrithms.o
 
 # target to build an object file
-6Search/algorithms.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/6Search/algorithms.cpp.o
-.PHONY : 6Search/algorithms.cpp.o
+6Search/alogrithms.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alogrithms.dir/build.make CMakeFiles/alogrithms.dir/6Search/alogrithms.cpp.o
+.PHONY : 6Search/alogrithms.cpp.o
 
-6Search/algorithms.i: 6Search/algorithms.cpp.i
+6Search/alogrithms.i: 6Search/alogrithms.cpp.i
 
-.PHONY : 6Search/algorithms.i
+.PHONY : 6Search/alogrithms.i
 
 # target to preprocess a source file
-6Search/algorithms.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/6Search/algorithms.cpp.i
-.PHONY : 6Search/algorithms.cpp.i
+6Search/alogrithms.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alogrithms.dir/build.make CMakeFiles/alogrithms.dir/6Search/alogrithms.cpp.i
+.PHONY : 6Search/alogrithms.cpp.i
 
-6Search/algorithms.s: 6Search/algorithms.cpp.s
+6Search/alogrithms.s: 6Search/alogrithms.cpp.s
 
-.PHONY : 6Search/algorithms.s
+.PHONY : 6Search/alogrithms.s
 
 # target to generate assembly for a file
-6Search/algorithms.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/algorithms.dir/build.make CMakeFiles/algorithms.dir/6Search/algorithms.cpp.s
-.PHONY : 6Search/algorithms.cpp.s
+6Search/alogrithms.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alogrithms.dir/build.make CMakeFiles/alogrithms.dir/6Search/alogrithms.cpp.s
+.PHONY : 6Search/alogrithms.cpp.s
 
 7Sort/alogrithms.o: 7Sort/alogrithms.cpp.o
 
@@ -1714,6 +1792,33 @@ PAT/yi/1012.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/1012.dir/build.make CMakeFiles/1012.dir/PAT/yi/1012.cpp.s
 .PHONY : PAT/yi/1012.cpp.s
 
+PAT/yi/1077.o: PAT/yi/1077.cpp.o
+
+.PHONY : PAT/yi/1077.o
+
+# target to build an object file
+PAT/yi/1077.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1077.dir/build.make CMakeFiles/1077.dir/PAT/yi/1077.cpp.o
+.PHONY : PAT/yi/1077.cpp.o
+
+PAT/yi/1077.i: PAT/yi/1077.cpp.i
+
+.PHONY : PAT/yi/1077.i
+
+# target to preprocess a source file
+PAT/yi/1077.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1077.dir/build.make CMakeFiles/1077.dir/PAT/yi/1077.cpp.i
+.PHONY : PAT/yi/1077.cpp.i
+
+PAT/yi/1077.s: PAT/yi/1077.cpp.s
+
+.PHONY : PAT/yi/1077.s
+
+# target to generate assembly for a file
+PAT/yi/1077.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1077.dir/build.make CMakeFiles/1077.dir/PAT/yi/1077.cpp.s
+.PHONY : PAT/yi/1077.cpp.s
+
 STL_learning/demo.o: STL_learning/demo.cpp.o
 
 .PHONY : STL_learning/demo.o
@@ -1767,33 +1872,6 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/datastruct.dir/build.make CMakeFiles/datastruct.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-test_all/demo1.o: test_all/demo1.cpp.o
-
-.PHONY : test_all/demo1.o
-
-# target to build an object file
-test_all/demo1.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/test_all/demo1.cpp.o
-.PHONY : test_all/demo1.cpp.o
-
-test_all/demo1.i: test_all/demo1.cpp.i
-
-.PHONY : test_all/demo1.i
-
-# target to preprocess a source file
-test_all/demo1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/test_all/demo1.cpp.i
-.PHONY : test_all/demo1.cpp.i
-
-test_all/demo1.s: test_all/demo1.cpp.s
-
-.PHONY : test_all/demo1.s
-
-# target to generate assembly for a file
-test_all/demo1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/test_all/demo1.cpp.s
-.PHONY : test_all/demo1.cpp.s
 
 test_all/summer_pat/7_1.o: test_all/summer_pat/7_1.cpp.o
 
@@ -1849,6 +1927,168 @@ test_all/summer_pat/7_2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_2.dir/build.make CMakeFiles/7_2.dir/test_all/summer_pat/7_2.cpp.s
 .PHONY : test_all/summer_pat/7_2.cpp.s
 
+test_all/summer_pat/7_5.o: test_all/summer_pat/7_5.cpp.o
+
+.PHONY : test_all/summer_pat/7_5.o
+
+# target to build an object file
+test_all/summer_pat/7_5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_5.dir/build.make CMakeFiles/7_5.dir/test_all/summer_pat/7_5.cpp.o
+.PHONY : test_all/summer_pat/7_5.cpp.o
+
+test_all/summer_pat/7_5.i: test_all/summer_pat/7_5.cpp.i
+
+.PHONY : test_all/summer_pat/7_5.i
+
+# target to preprocess a source file
+test_all/summer_pat/7_5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_5.dir/build.make CMakeFiles/7_5.dir/test_all/summer_pat/7_5.cpp.i
+.PHONY : test_all/summer_pat/7_5.cpp.i
+
+test_all/summer_pat/7_5.s: test_all/summer_pat/7_5.cpp.s
+
+.PHONY : test_all/summer_pat/7_5.s
+
+# target to generate assembly for a file
+test_all/summer_pat/7_5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_5.dir/build.make CMakeFiles/7_5.dir/test_all/summer_pat/7_5.cpp.s
+.PHONY : test_all/summer_pat/7_5.cpp.s
+
+test_all/summer_pat/7_6.o: test_all/summer_pat/7_6.cpp.o
+
+.PHONY : test_all/summer_pat/7_6.o
+
+# target to build an object file
+test_all/summer_pat/7_6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_6.dir/build.make CMakeFiles/7_6.dir/test_all/summer_pat/7_6.cpp.o
+.PHONY : test_all/summer_pat/7_6.cpp.o
+
+test_all/summer_pat/7_6.i: test_all/summer_pat/7_6.cpp.i
+
+.PHONY : test_all/summer_pat/7_6.i
+
+# target to preprocess a source file
+test_all/summer_pat/7_6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_6.dir/build.make CMakeFiles/7_6.dir/test_all/summer_pat/7_6.cpp.i
+.PHONY : test_all/summer_pat/7_6.cpp.i
+
+test_all/summer_pat/7_6.s: test_all/summer_pat/7_6.cpp.s
+
+.PHONY : test_all/summer_pat/7_6.s
+
+# target to generate assembly for a file
+test_all/summer_pat/7_6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_6.dir/build.make CMakeFiles/7_6.dir/test_all/summer_pat/7_6.cpp.s
+.PHONY : test_all/summer_pat/7_6.cpp.s
+
+test_all/summer_pat/7_7.o: test_all/summer_pat/7_7.cpp.o
+
+.PHONY : test_all/summer_pat/7_7.o
+
+# target to build an object file
+test_all/summer_pat/7_7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_7.dir/build.make CMakeFiles/7_7.dir/test_all/summer_pat/7_7.cpp.o
+.PHONY : test_all/summer_pat/7_7.cpp.o
+
+test_all/summer_pat/7_7.i: test_all/summer_pat/7_7.cpp.i
+
+.PHONY : test_all/summer_pat/7_7.i
+
+# target to preprocess a source file
+test_all/summer_pat/7_7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_7.dir/build.make CMakeFiles/7_7.dir/test_all/summer_pat/7_7.cpp.i
+.PHONY : test_all/summer_pat/7_7.cpp.i
+
+test_all/summer_pat/7_7.s: test_all/summer_pat/7_7.cpp.s
+
+.PHONY : test_all/summer_pat/7_7.s
+
+# target to generate assembly for a file
+test_all/summer_pat/7_7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_7.dir/build.make CMakeFiles/7_7.dir/test_all/summer_pat/7_7.cpp.s
+.PHONY : test_all/summer_pat/7_7.cpp.s
+
+test_all/summer_pat/7_8.o: test_all/summer_pat/7_8.cpp.o
+
+.PHONY : test_all/summer_pat/7_8.o
+
+# target to build an object file
+test_all/summer_pat/7_8.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_8.dir/build.make CMakeFiles/7_8.dir/test_all/summer_pat/7_8.cpp.o
+.PHONY : test_all/summer_pat/7_8.cpp.o
+
+test_all/summer_pat/7_8.i: test_all/summer_pat/7_8.cpp.i
+
+.PHONY : test_all/summer_pat/7_8.i
+
+# target to preprocess a source file
+test_all/summer_pat/7_8.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_8.dir/build.make CMakeFiles/7_8.dir/test_all/summer_pat/7_8.cpp.i
+.PHONY : test_all/summer_pat/7_8.cpp.i
+
+test_all/summer_pat/7_8.s: test_all/summer_pat/7_8.cpp.s
+
+.PHONY : test_all/summer_pat/7_8.s
+
+# target to generate assembly for a file
+test_all/summer_pat/7_8.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_8.dir/build.make CMakeFiles/7_8.dir/test_all/summer_pat/7_8.cpp.s
+.PHONY : test_all/summer_pat/7_8.cpp.s
+
+test_all/summer_pat/7_9.o: test_all/summer_pat/7_9.cpp.o
+
+.PHONY : test_all/summer_pat/7_9.o
+
+# target to build an object file
+test_all/summer_pat/7_9.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_9.dir/build.make CMakeFiles/7_9.dir/test_all/summer_pat/7_9.cpp.o
+.PHONY : test_all/summer_pat/7_9.cpp.o
+
+test_all/summer_pat/7_9.i: test_all/summer_pat/7_9.cpp.i
+
+.PHONY : test_all/summer_pat/7_9.i
+
+# target to preprocess a source file
+test_all/summer_pat/7_9.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_9.dir/build.make CMakeFiles/7_9.dir/test_all/summer_pat/7_9.cpp.i
+.PHONY : test_all/summer_pat/7_9.cpp.i
+
+test_all/summer_pat/7_9.s: test_all/summer_pat/7_9.cpp.s
+
+.PHONY : test_all/summer_pat/7_9.s
+
+# target to generate assembly for a file
+test_all/summer_pat/7_9.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/7_9.dir/build.make CMakeFiles/7_9.dir/test_all/summer_pat/7_9.cpp.s
+.PHONY : test_all/summer_pat/7_9.cpp.s
+
+test_all/summer_pat/demo1.o: test_all/summer_pat/demo1.cpp.o
+
+.PHONY : test_all/summer_pat/demo1.o
+
+# target to build an object file
+test_all/summer_pat/demo1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.o
+.PHONY : test_all/summer_pat/demo1.cpp.o
+
+test_all/summer_pat/demo1.i: test_all/summer_pat/demo1.cpp.i
+
+.PHONY : test_all/summer_pat/demo1.i
+
+# target to preprocess a source file
+test_all/summer_pat/demo1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.i
+.PHONY : test_all/summer_pat/demo1.cpp.i
+
+test_all/summer_pat/demo1.s: test_all/summer_pat/demo1.cpp.s
+
+.PHONY : test_all/summer_pat/demo1.s
+
+# target to generate assembly for a file
+test_all/summer_pat/demo1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.s
+.PHONY : test_all/summer_pat/demo1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1873,8 +2113,14 @@ help:
 	@echo "... 1012"
 	@echo "... 1012_The_Best_Rank"
 	@echo "... 1013_Battle_Over_Cities"
+	@echo "... 1077"
 	@echo "... 7_1"
 	@echo "... 7_2"
+	@echo "... 7_5"
+	@echo "... 7_6"
+	@echo "... 7_7"
+	@echo "... 7_8"
+	@echo "... 7_9"
 	@echo "... BFS___Single_source_shortest_path_of_weighted_graph"
 	@echo "... CircleQueue"
 	@echo "... DoubleLinkList"
@@ -1890,7 +2136,7 @@ help:
 	@echo "... SeqStack"
 	@echo "... SqQueue"
 	@echo "... Tree"
-	@echo "... algorithms"
+	@echo "... alogrithms"
 	@echo "... datastruct"
 	@echo "... demo"
 	@echo "... demo1"
@@ -1954,9 +2200,9 @@ help:
 	@echo "... 5Graph/dijkstra__example1.o"
 	@echo "... 5Graph/dijkstra__example1.i"
 	@echo "... 5Graph/dijkstra__example1.s"
-	@echo "... 6Search/algorithms.o"
-	@echo "... 6Search/algorithms.i"
-	@echo "... 6Search/algorithms.s"
+	@echo "... 6Search/alogrithms.o"
+	@echo "... 6Search/alogrithms.i"
+	@echo "... 6Search/alogrithms.s"
 	@echo "... 7Sort/alogrithms.o"
 	@echo "... 7Sort/alogrithms.i"
 	@echo "... 7Sort/alogrithms.s"
@@ -2014,21 +2260,39 @@ help:
 	@echo "... PAT/yi/1012.o"
 	@echo "... PAT/yi/1012.i"
 	@echo "... PAT/yi/1012.s"
+	@echo "... PAT/yi/1077.o"
+	@echo "... PAT/yi/1077.i"
+	@echo "... PAT/yi/1077.s"
 	@echo "... STL_learning/demo.o"
 	@echo "... STL_learning/demo.i"
 	@echo "... STL_learning/demo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test_all/demo1.o"
-	@echo "... test_all/demo1.i"
-	@echo "... test_all/demo1.s"
 	@echo "... test_all/summer_pat/7_1.o"
 	@echo "... test_all/summer_pat/7_1.i"
 	@echo "... test_all/summer_pat/7_1.s"
 	@echo "... test_all/summer_pat/7_2.o"
 	@echo "... test_all/summer_pat/7_2.i"
 	@echo "... test_all/summer_pat/7_2.s"
+	@echo "... test_all/summer_pat/7_5.o"
+	@echo "... test_all/summer_pat/7_5.i"
+	@echo "... test_all/summer_pat/7_5.s"
+	@echo "... test_all/summer_pat/7_6.o"
+	@echo "... test_all/summer_pat/7_6.i"
+	@echo "... test_all/summer_pat/7_6.s"
+	@echo "... test_all/summer_pat/7_7.o"
+	@echo "... test_all/summer_pat/7_7.i"
+	@echo "... test_all/summer_pat/7_7.s"
+	@echo "... test_all/summer_pat/7_8.o"
+	@echo "... test_all/summer_pat/7_8.i"
+	@echo "... test_all/summer_pat/7_8.s"
+	@echo "... test_all/summer_pat/7_9.o"
+	@echo "... test_all/summer_pat/7_9.i"
+	@echo "... test_all/summer_pat/7_9.s"
+	@echo "... test_all/summer_pat/demo1.o"
+	@echo "... test_all/summer_pat/demo1.i"
+	@echo "... test_all/summer_pat/demo1.s"
 .PHONY : help
 
 

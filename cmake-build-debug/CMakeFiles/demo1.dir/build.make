@@ -76,27 +76,27 @@ include CMakeFiles/demo1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/demo1.dir/flags.make
 
-CMakeFiles/demo1.dir/test_all/demo1.cpp.o: CMakeFiles/demo1.dir/flags.make
-CMakeFiles/demo1.dir/test_all/demo1.cpp.o: ../test_all/demo1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo1.dir/test_all/demo1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo1.dir/test_all/demo1.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/test_all/demo1.cpp
+CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.o: CMakeFiles/demo1.dir/flags.make
+CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.o: ../test_all/summer_pat/demo1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/test_all/summer_pat/demo1.cpp
 
-CMakeFiles/demo1.dir/test_all/demo1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo1.dir/test_all/demo1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/test_all/demo1.cpp > CMakeFiles/demo1.dir/test_all/demo1.cpp.i
+CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/test_all/summer_pat/demo1.cpp > CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.i
 
-CMakeFiles/demo1.dir/test_all/demo1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo1.dir/test_all/demo1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/test_all/demo1.cpp -o CMakeFiles/demo1.dir/test_all/demo1.cpp.s
+CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/test_all/summer_pat/demo1.cpp -o CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.s
 
 # Object files for target demo1
 demo1_OBJECTS = \
-"CMakeFiles/demo1.dir/test_all/demo1.cpp.o"
+"CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.o"
 
 # External object files for target demo1
 demo1_EXTERNAL_OBJECTS =
 
-demo1: CMakeFiles/demo1.dir/test_all/demo1.cpp.o
+demo1: CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.o
 demo1: CMakeFiles/demo1.dir/build.make
 demo1: CMakeFiles/demo1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable demo1"
