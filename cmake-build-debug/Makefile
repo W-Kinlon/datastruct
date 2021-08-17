@@ -130,6 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 114
+
+# Build rule for target.
+114: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 114
+.PHONY : 114
+
+# fast build rule for target.
+114/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/114.dir/build.make CMakeFiles/114.dir/build
+.PHONY : 114/fast
+
+#=============================================================================
+# Target rules for targets named Floyd
+
+# Build rule for target.
+Floyd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Floyd
+.PHONY : Floyd
+
+# fast build rule for target.
+Floyd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Floyd.dir/build.make CMakeFiles/Floyd.dir/build
+.PHONY : Floyd/fast
+
+#=============================================================================
+# Target rules for targets named 6
+
+# Build rule for target.
+6 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 6
+.PHONY : 6
+
+# fast build rule for target.
+6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6.dir/build.make CMakeFiles/6.dir/build
+.PHONY : 6/fast
+
+#=============================================================================
+# Target rules for targets named Dijkstra
+
+# Build rule for target.
+Dijkstra: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Dijkstra
+.PHONY : Dijkstra
+
+# fast build rule for target.
+Dijkstra/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dijkstra.dir/build.make CMakeFiles/Dijkstra.dir/build
+.PHONY : Dijkstra/fast
+
+#=============================================================================
+# Target rules for targets named 1
+
+# Build rule for target.
+1 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1
+.PHONY : 1
+
+# fast build rule for target.
+1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+#=============================================================================
 # Target rules for targets named LinkQueue
 
 # Build rule for target.
@@ -377,6 +442,19 @@ CircleQueue/fast:
 .PHONY : CircleQueue/fast
 
 #=============================================================================
+# Target rules for targets named 2
+
+# Build rule for target.
+2 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 2
+.PHONY : 2
+
+# fast build rule for target.
+2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/build
+.PHONY : 2/fast
+
+#=============================================================================
 # Target rules for targets named 7_9
 
 # Build rule for target.
@@ -505,6 +583,19 @@ LinkList: cmake_check_build_system
 LinkList/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkList.dir/build.make CMakeFiles/LinkList.dir/build
 .PHONY : LinkList/fast
+
+#=============================================================================
+# Target rules for targets named p221
+
+# Build rule for target.
+p221: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 p221
+.PHONY : p221
+
+# fast build rule for target.
+p221/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p221.dir/build.make CMakeFiles/p221.dir/build
+.PHONY : p221/fast
 
 #=============================================================================
 # Target rules for targets named 1005_Spell_It_Right
@@ -648,6 +739,19 @@ dijkstra__example1: cmake_check_build_system
 dijkstra__example1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/build
 .PHONY : dijkstra__example1/fast
+
+#=============================================================================
+# Target rules for targets named 3
+
+# Build rule for target.
+3 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 3
+.PHONY : 3
+
+# fast build rule for target.
+3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/build
+.PHONY : 3/fast
 
 #=============================================================================
 # Target rules for targets named SeqStack
@@ -1198,6 +1302,60 @@ datastruct/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
 .PHONY : 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
 
+5Graph/Dijkstra.o: 5Graph/Dijkstra.cpp.o
+
+.PHONY : 5Graph/Dijkstra.o
+
+# target to build an object file
+5Graph/Dijkstra.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dijkstra.dir/build.make CMakeFiles/Dijkstra.dir/5Graph/Dijkstra.cpp.o
+.PHONY : 5Graph/Dijkstra.cpp.o
+
+5Graph/Dijkstra.i: 5Graph/Dijkstra.cpp.i
+
+.PHONY : 5Graph/Dijkstra.i
+
+# target to preprocess a source file
+5Graph/Dijkstra.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dijkstra.dir/build.make CMakeFiles/Dijkstra.dir/5Graph/Dijkstra.cpp.i
+.PHONY : 5Graph/Dijkstra.cpp.i
+
+5Graph/Dijkstra.s: 5Graph/Dijkstra.cpp.s
+
+.PHONY : 5Graph/Dijkstra.s
+
+# target to generate assembly for a file
+5Graph/Dijkstra.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Dijkstra.dir/build.make CMakeFiles/Dijkstra.dir/5Graph/Dijkstra.cpp.s
+.PHONY : 5Graph/Dijkstra.cpp.s
+
+5Graph/Floyd.o: 5Graph/Floyd.cpp.o
+
+.PHONY : 5Graph/Floyd.o
+
+# target to build an object file
+5Graph/Floyd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Floyd.dir/build.make CMakeFiles/Floyd.dir/5Graph/Floyd.cpp.o
+.PHONY : 5Graph/Floyd.cpp.o
+
+5Graph/Floyd.i: 5Graph/Floyd.cpp.i
+
+.PHONY : 5Graph/Floyd.i
+
+# target to preprocess a source file
+5Graph/Floyd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Floyd.dir/build.make CMakeFiles/Floyd.dir/5Graph/Floyd.cpp.i
+.PHONY : 5Graph/Floyd.cpp.i
+
+5Graph/Floyd.s: 5Graph/Floyd.cpp.s
+
+.PHONY : 5Graph/Floyd.s
+
+# target to generate assembly for a file
+5Graph/Floyd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Floyd.dir/build.make CMakeFiles/Floyd.dir/5Graph/Floyd.cpp.s
+.PHONY : 5Graph/Floyd.cpp.s
+
 5Graph/Graph___AdjacencyTable.o: 5Graph/Graph___AdjacencyTable.cpp.o
 
 .PHONY : 5Graph/Graph___AdjacencyTable.o
@@ -1251,6 +1409,33 @@ datastruct/fast:
 5Graph/dijkstra__example1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dijkstra__example1.dir/build.make CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.s
 .PHONY : 5Graph/dijkstra__example1.cpp.s
+
+5Graph/p221.o: 5Graph/p221.cpp.o
+
+.PHONY : 5Graph/p221.o
+
+# target to build an object file
+5Graph/p221.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p221.dir/build.make CMakeFiles/p221.dir/5Graph/p221.cpp.o
+.PHONY : 5Graph/p221.cpp.o
+
+5Graph/p221.i: 5Graph/p221.cpp.i
+
+.PHONY : 5Graph/p221.i
+
+# target to preprocess a source file
+5Graph/p221.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p221.dir/build.make CMakeFiles/p221.dir/5Graph/p221.cpp.i
+.PHONY : 5Graph/p221.cpp.i
+
+5Graph/p221.s: 5Graph/p221.cpp.s
+
+.PHONY : 5Graph/p221.s
+
+# target to generate assembly for a file
+5Graph/p221.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p221.dir/build.make CMakeFiles/p221.dir/5Graph/p221.cpp.s
+.PHONY : 5Graph/p221.cpp.s
 
 6Search/alogrithms.o: 6Search/alogrithms.cpp.o
 
@@ -1846,6 +2031,33 @@ STL_learning/demo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/first.dir/build.make CMakeFiles/first.dir/STL_learning/demo.cpp.s
 .PHONY : STL_learning/demo.cpp.s
 
+anxiaoyan/114.o: anxiaoyan/114.cpp.o
+
+.PHONY : anxiaoyan/114.o
+
+# target to build an object file
+anxiaoyan/114.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/114.dir/build.make CMakeFiles/114.dir/anxiaoyan/114.cpp.o
+.PHONY : anxiaoyan/114.cpp.o
+
+anxiaoyan/114.i: anxiaoyan/114.cpp.i
+
+.PHONY : anxiaoyan/114.i
+
+# target to preprocess a source file
+anxiaoyan/114.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/114.dir/build.make CMakeFiles/114.dir/anxiaoyan/114.cpp.i
+.PHONY : anxiaoyan/114.cpp.i
+
+anxiaoyan/114.s: anxiaoyan/114.cpp.s
+
+.PHONY : anxiaoyan/114.s
+
+# target to generate assembly for a file
+anxiaoyan/114.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/114.dir/build.make CMakeFiles/114.dir/anxiaoyan/114.cpp.s
+.PHONY : anxiaoyan/114.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -2089,6 +2301,114 @@ test_all/summer_pat/demo1.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo1.dir/build.make CMakeFiles/demo1.dir/test_all/summer_pat/demo1.cpp.s
 .PHONY : test_all/summer_pat/demo1.cpp.s
 
+test_all/summer_pat3/1.o: test_all/summer_pat3/1.cpp.o
+
+.PHONY : test_all/summer_pat3/1.o
+
+# target to build an object file
+test_all/summer_pat3/1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/test_all/summer_pat3/1.cpp.o
+.PHONY : test_all/summer_pat3/1.cpp.o
+
+test_all/summer_pat3/1.i: test_all/summer_pat3/1.cpp.i
+
+.PHONY : test_all/summer_pat3/1.i
+
+# target to preprocess a source file
+test_all/summer_pat3/1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/test_all/summer_pat3/1.cpp.i
+.PHONY : test_all/summer_pat3/1.cpp.i
+
+test_all/summer_pat3/1.s: test_all/summer_pat3/1.cpp.s
+
+.PHONY : test_all/summer_pat3/1.s
+
+# target to generate assembly for a file
+test_all/summer_pat3/1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/test_all/summer_pat3/1.cpp.s
+.PHONY : test_all/summer_pat3/1.cpp.s
+
+test_all/summer_pat3/2.o: test_all/summer_pat3/2.cpp.o
+
+.PHONY : test_all/summer_pat3/2.o
+
+# target to build an object file
+test_all/summer_pat3/2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/test_all/summer_pat3/2.cpp.o
+.PHONY : test_all/summer_pat3/2.cpp.o
+
+test_all/summer_pat3/2.i: test_all/summer_pat3/2.cpp.i
+
+.PHONY : test_all/summer_pat3/2.i
+
+# target to preprocess a source file
+test_all/summer_pat3/2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/test_all/summer_pat3/2.cpp.i
+.PHONY : test_all/summer_pat3/2.cpp.i
+
+test_all/summer_pat3/2.s: test_all/summer_pat3/2.cpp.s
+
+.PHONY : test_all/summer_pat3/2.s
+
+# target to generate assembly for a file
+test_all/summer_pat3/2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/2.dir/build.make CMakeFiles/2.dir/test_all/summer_pat3/2.cpp.s
+.PHONY : test_all/summer_pat3/2.cpp.s
+
+test_all/summer_pat3/3.o: test_all/summer_pat3/3.cpp.o
+
+.PHONY : test_all/summer_pat3/3.o
+
+# target to build an object file
+test_all/summer_pat3/3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/test_all/summer_pat3/3.cpp.o
+.PHONY : test_all/summer_pat3/3.cpp.o
+
+test_all/summer_pat3/3.i: test_all/summer_pat3/3.cpp.i
+
+.PHONY : test_all/summer_pat3/3.i
+
+# target to preprocess a source file
+test_all/summer_pat3/3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/test_all/summer_pat3/3.cpp.i
+.PHONY : test_all/summer_pat3/3.cpp.i
+
+test_all/summer_pat3/3.s: test_all/summer_pat3/3.cpp.s
+
+.PHONY : test_all/summer_pat3/3.s
+
+# target to generate assembly for a file
+test_all/summer_pat3/3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/3.dir/build.make CMakeFiles/3.dir/test_all/summer_pat3/3.cpp.s
+.PHONY : test_all/summer_pat3/3.cpp.s
+
+test_all/summer_pat3/6.o: test_all/summer_pat3/6.cpp.o
+
+.PHONY : test_all/summer_pat3/6.o
+
+# target to build an object file
+test_all/summer_pat3/6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6.dir/build.make CMakeFiles/6.dir/test_all/summer_pat3/6.cpp.o
+.PHONY : test_all/summer_pat3/6.cpp.o
+
+test_all/summer_pat3/6.i: test_all/summer_pat3/6.cpp.i
+
+.PHONY : test_all/summer_pat3/6.i
+
+# target to preprocess a source file
+test_all/summer_pat3/6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6.dir/build.make CMakeFiles/6.dir/test_all/summer_pat3/6.cpp.i
+.PHONY : test_all/summer_pat3/6.cpp.i
+
+test_all/summer_pat3/6.s: test_all/summer_pat3/6.cpp.s
+
+.PHONY : test_all/summer_pat3/6.s
+
+# target to generate assembly for a file
+test_all/summer_pat3/6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/6.dir/build.make CMakeFiles/6.dir/test_all/summer_pat3/6.cpp.s
+.PHONY : test_all/summer_pat3/6.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -2099,6 +2419,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... 001_House_number_making"
 	@echo "... 002_reduced_fraction"
+	@echo "... 1"
 	@echo "... 1002_for_Polynomials"
 	@echo "... 1004_Counting_Leaves"
 	@echo "... 1004_Counting_Leaves2"
@@ -2114,6 +2435,10 @@ help:
 	@echo "... 1012_The_Best_Rank"
 	@echo "... 1013_Battle_Over_Cities"
 	@echo "... 1077"
+	@echo "... 114"
+	@echo "... 2"
+	@echo "... 3"
+	@echo "... 6"
 	@echo "... 7_1"
 	@echo "... 7_2"
 	@echo "... 7_5"
@@ -2123,8 +2448,10 @@ help:
 	@echo "... 7_9"
 	@echo "... BFS___Single_source_shortest_path_of_weighted_graph"
 	@echo "... CircleQueue"
+	@echo "... Dijkstra"
 	@echo "... DoubleLinkList"
 	@echo "... Dynamic_allocation"
+	@echo "... Floyd"
 	@echo "... FullTree"
 	@echo "... Graph___AdjacencyTableMethod"
 	@echo "... InsertSort"
@@ -2143,6 +2470,7 @@ help:
 	@echo "... dijkstra__example1"
 	@echo "... first"
 	@echo "... matchBracket"
+	@echo "... p221"
 	@echo "... p37"
 	@echo "... p66"
 	@echo "... p80"
@@ -2194,12 +2522,21 @@ help:
 	@echo "... 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.o"
 	@echo "... 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.i"
 	@echo "... 5Graph/BFS___Single_source_shortest_path_of_weighted_graph.s"
+	@echo "... 5Graph/Dijkstra.o"
+	@echo "... 5Graph/Dijkstra.i"
+	@echo "... 5Graph/Dijkstra.s"
+	@echo "... 5Graph/Floyd.o"
+	@echo "... 5Graph/Floyd.i"
+	@echo "... 5Graph/Floyd.s"
 	@echo "... 5Graph/Graph___AdjacencyTable.o"
 	@echo "... 5Graph/Graph___AdjacencyTable.i"
 	@echo "... 5Graph/Graph___AdjacencyTable.s"
 	@echo "... 5Graph/dijkstra__example1.o"
 	@echo "... 5Graph/dijkstra__example1.i"
 	@echo "... 5Graph/dijkstra__example1.s"
+	@echo "... 5Graph/p221.o"
+	@echo "... 5Graph/p221.i"
+	@echo "... 5Graph/p221.s"
 	@echo "... 6Search/alogrithms.o"
 	@echo "... 6Search/alogrithms.i"
 	@echo "... 6Search/alogrithms.s"
@@ -2266,6 +2603,9 @@ help:
 	@echo "... STL_learning/demo.o"
 	@echo "... STL_learning/demo.i"
 	@echo "... STL_learning/demo.s"
+	@echo "... anxiaoyan/114.o"
+	@echo "... anxiaoyan/114.i"
+	@echo "... anxiaoyan/114.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -2293,6 +2633,18 @@ help:
 	@echo "... test_all/summer_pat/demo1.o"
 	@echo "... test_all/summer_pat/demo1.i"
 	@echo "... test_all/summer_pat/demo1.s"
+	@echo "... test_all/summer_pat3/1.o"
+	@echo "... test_all/summer_pat3/1.i"
+	@echo "... test_all/summer_pat3/1.s"
+	@echo "... test_all/summer_pat3/2.o"
+	@echo "... test_all/summer_pat3/2.i"
+	@echo "... test_all/summer_pat3/2.s"
+	@echo "... test_all/summer_pat3/3.o"
+	@echo "... test_all/summer_pat3/3.i"
+	@echo "... test_all/summer_pat3/3.s"
+	@echo "... test_all/summer_pat3/6.o"
+	@echo "... test_all/summer_pat3/6.i"
+	@echo "... test_all/summer_pat3/6.s"
 .PHONY : help
 
 

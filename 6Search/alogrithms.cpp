@@ -12,8 +12,9 @@ typedef struct SSTable{
 
 //顺序查找
 int Search_Seq(SSTable ST,elemType key){
-    ST.elem[0] = key;int i;
-    for (i = ST.length;ST.elem[i] != key; ++i);
+    ST.elem[0] = key;
+    int i;
+    for (i = ST.length;ST.elem[i] != key; --i);
     return i;
 }
 
@@ -31,8 +32,8 @@ int Binary_Search(SSTable table,elemType key){
 
 
 int main(){
-    int list[] = {1,2,3,4,5,6,7,8,9,10},length=10;
-    SSTable table;table.elem = list;table.length = length;
-    std::cout << Search_Seq(table,4);
+    int list[] = {-1,1,2,3,4,5,6,7,8,9,10},length=10;
+    SSTable table;table.elem = list;table.length = length+1;
+    std::cout << Search_Seq(table,88);
     return 0;
 }

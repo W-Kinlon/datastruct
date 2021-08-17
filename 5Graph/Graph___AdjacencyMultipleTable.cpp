@@ -2,7 +2,7 @@
 // Created by 11545 on 2021/4/14.
 //
 
-//无向图
+//邻接多重表
 
 #include "iostream"
 #define Max 100
