@@ -76,27 +76,27 @@ include CMakeFiles/LinkStack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LinkStack.dir/flags.make
 
-CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.o: CMakeFiles/LinkStack.dir/flags.make
-CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.o: ../2StackAndQueue/LinkStack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/LinkStack.cpp
+CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.o: CMakeFiles/LinkStack.dir/flags.make
+CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.o: ../db/2StackAndQueue/LinkStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/LinkStack.cpp
 
-CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/LinkStack.cpp > CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.i
+CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/LinkStack.cpp > CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.i
 
-CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/LinkStack.cpp -o CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.s
+CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/LinkStack.cpp -o CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.s
 
 # Object files for target LinkStack
 LinkStack_OBJECTS = \
-"CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.o"
+"CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.o"
 
 # External object files for target LinkStack
 LinkStack_EXTERNAL_OBJECTS =
 
-LinkStack: CMakeFiles/LinkStack.dir/2StackAndQueue/LinkStack.cpp.o
+LinkStack: CMakeFiles/LinkStack.dir/db/2StackAndQueue/LinkStack.cpp.o
 LinkStack: CMakeFiles/LinkStack.dir/build.make
 LinkStack: CMakeFiles/LinkStack.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LinkStack"

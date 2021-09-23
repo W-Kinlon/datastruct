@@ -76,27 +76,27 @@ include CMakeFiles/dijkstra__example1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dijkstra__example1.dir/flags.make
 
-CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.o: CMakeFiles/dijkstra__example1.dir/flags.make
-CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.o: ../5Graph/dijkstra__example1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/5Graph/dijkstra__example1.cpp
+CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.o: CMakeFiles/dijkstra__example1.dir/flags.make
+CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.o: ../db/5Graph/dijkstra__example1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/5Graph/dijkstra__example1.cpp
 
-CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/5Graph/dijkstra__example1.cpp > CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.i
+CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/5Graph/dijkstra__example1.cpp > CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.i
 
-CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/5Graph/dijkstra__example1.cpp -o CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.s
+CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/5Graph/dijkstra__example1.cpp -o CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.s
 
 # Object files for target dijkstra__example1
 dijkstra__example1_OBJECTS = \
-"CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.o"
+"CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.o"
 
 # External object files for target dijkstra__example1
 dijkstra__example1_EXTERNAL_OBJECTS =
 
-dijkstra__example1: CMakeFiles/dijkstra__example1.dir/5Graph/dijkstra__example1.cpp.o
+dijkstra__example1: CMakeFiles/dijkstra__example1.dir/db/5Graph/dijkstra__example1.cpp.o
 dijkstra__example1: CMakeFiles/dijkstra__example1.dir/build.make
 dijkstra__example1: CMakeFiles/dijkstra__example1.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dijkstra__example1"

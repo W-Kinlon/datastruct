@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/kinlonwong/Desktop/Code/datastruct/1LinearList/p37.cpp" "/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/p37.dir/1LinearList/p37.cpp.o"
+  "/Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/p37.cpp" "/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/p37.dir/db/1LinearList/p37.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

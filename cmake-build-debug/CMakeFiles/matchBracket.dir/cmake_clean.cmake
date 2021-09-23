@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.o"
+  "CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.o"
   "matchBracket"
   "matchBracket.pdb"
 )

@@ -76,27 +76,27 @@ include CMakeFiles/SeqStack.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SeqStack.dir/flags.make
 
-CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.o: CMakeFiles/SeqStack.dir/flags.make
-CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.o: ../2StackAndQueue/SeqStack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/SeqStack.cpp
+CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.o: CMakeFiles/SeqStack.dir/flags.make
+CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.o: ../db/2StackAndQueue/SeqStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/SeqStack.cpp
 
-CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/SeqStack.cpp > CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.i
+CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/SeqStack.cpp > CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.i
 
-CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/SeqStack.cpp -o CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.s
+CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/SeqStack.cpp -o CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.s
 
 # Object files for target SeqStack
 SeqStack_OBJECTS = \
-"CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.o"
+"CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.o"
 
 # External object files for target SeqStack
 SeqStack_EXTERNAL_OBJECTS =
 
-SeqStack: CMakeFiles/SeqStack.dir/2StackAndQueue/SeqStack.cpp.o
+SeqStack: CMakeFiles/SeqStack.dir/db/2StackAndQueue/SeqStack.cpp.o
 SeqStack: CMakeFiles/SeqStack.dir/build.make
 SeqStack: CMakeFiles/SeqStack.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SeqStack"

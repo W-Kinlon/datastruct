@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.o"
+  "CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.o"
   "p80"
   "p80.pdb"
 )

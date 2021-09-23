@@ -76,27 +76,27 @@ include CMakeFiles/FullTree.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/FullTree.dir/flags.make
 
-CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.o: CMakeFiles/FullTree.dir/flags.make
-CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.o: ../4Tree/FullTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/4Tree/FullTree.cpp
+CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.o: CMakeFiles/FullTree.dir/flags.make
+CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.o: ../db/4Tree/FullTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/4Tree/FullTree.cpp
 
-CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/4Tree/FullTree.cpp > CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.i
+CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/4Tree/FullTree.cpp > CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.i
 
-CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/4Tree/FullTree.cpp -o CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.s
+CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/4Tree/FullTree.cpp -o CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.s
 
 # Object files for target FullTree
 FullTree_OBJECTS = \
-"CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.o"
+"CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.o"
 
 # External object files for target FullTree
 FullTree_EXTERNAL_OBJECTS =
 
-FullTree: CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.o
+FullTree: CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.o
 FullTree: CMakeFiles/FullTree.dir/build.make
 FullTree: CMakeFiles/FullTree.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable FullTree"

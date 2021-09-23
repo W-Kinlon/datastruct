@@ -76,27 +76,27 @@ include CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/progr
 # Include the compile flags for this target's objects.
 include CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/flags.make
 
-CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o: CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/flags.make
-CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o: ../5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp
+CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o: CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/flags.make
+CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o: ../db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp
 
-CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp > CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i
+CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp > CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.i
 
-CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp -o CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
+CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp -o CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.s
 
 # Object files for target BFS___Single_source_shortest_path_of_weighted_graph
 BFS___Single_source_shortest_path_of_weighted_graph_OBJECTS = \
-"CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o"
+"CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o"
 
 # External object files for target BFS___Single_source_shortest_path_of_weighted_graph
 BFS___Single_source_shortest_path_of_weighted_graph_EXTERNAL_OBJECTS =
 
-BFS___Single_source_shortest_path_of_weighted_graph: CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
+BFS___Single_source_shortest_path_of_weighted_graph: CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/db/5Graph/BFS___Single_source_shortest_path_of_weighted_graph.cpp.o
 BFS___Single_source_shortest_path_of_weighted_graph: CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/build.make
 BFS___Single_source_shortest_path_of_weighted_graph: CMakeFiles/BFS___Single_source_shortest_path_of_weighted_graph.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BFS___Single_source_shortest_path_of_weighted_graph"

@@ -76,27 +76,27 @@ include CMakeFiles/SqQueue.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/SqQueue.dir/flags.make
 
-CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.o: CMakeFiles/SqQueue.dir/flags.make
-CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.o: ../2StackAndQueue/SqQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/SqQueue.cpp
+CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.o: CMakeFiles/SqQueue.dir/flags.make
+CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.o: ../db/2StackAndQueue/SqQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/SqQueue.cpp
 
-CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/SqQueue.cpp > CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.i
+CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/SqQueue.cpp > CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.i
 
-CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/SqQueue.cpp -o CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.s
+CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/SqQueue.cpp -o CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.s
 
 # Object files for target SqQueue
 SqQueue_OBJECTS = \
-"CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.o"
+"CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.o"
 
 # External object files for target SqQueue
 SqQueue_EXTERNAL_OBJECTS =
 
-SqQueue: CMakeFiles/SqQueue.dir/2StackAndQueue/SqQueue.cpp.o
+SqQueue: CMakeFiles/SqQueue.dir/db/2StackAndQueue/SqQueue.cpp.o
 SqQueue: CMakeFiles/SqQueue.dir/build.make
 SqQueue: CMakeFiles/SqQueue.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SqQueue"

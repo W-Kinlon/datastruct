@@ -76,27 +76,27 @@ include CMakeFiles/p80.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/p80.dir/flags.make
 
-CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.o: CMakeFiles/p80.dir/flags.make
-CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.o: ../2StackAndQueue/p80.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/p80.cpp
+CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.o: CMakeFiles/p80.dir/flags.make
+CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.o: ../db/2StackAndQueue/p80.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/p80.cpp
 
-CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/p80.cpp > CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.i
+CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/p80.cpp > CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.i
 
-CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/p80.cpp -o CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.s
+CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/p80.cpp -o CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.s
 
 # Object files for target p80
 p80_OBJECTS = \
-"CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.o"
+"CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.o"
 
 # External object files for target p80
 p80_EXTERNAL_OBJECTS =
 
-p80: CMakeFiles/p80.dir/2StackAndQueue/p80.cpp.o
+p80: CMakeFiles/p80.dir/db/2StackAndQueue/p80.cpp.o
 p80: CMakeFiles/p80.dir/build.make
 p80: CMakeFiles/p80.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable p80"

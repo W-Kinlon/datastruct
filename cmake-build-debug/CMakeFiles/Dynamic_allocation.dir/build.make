@@ -76,27 +76,27 @@ include CMakeFiles/Dynamic_allocation.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Dynamic_allocation.dir/flags.make
 
-CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.o: CMakeFiles/Dynamic_allocation.dir/flags.make
-CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.o: ../1LinearList/Dynamic_allocation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/Dynamic_allocation.cpp
+CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.o: CMakeFiles/Dynamic_allocation.dir/flags.make
+CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.o: ../db/1LinearList/Dynamic_allocation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/Dynamic_allocation.cpp
 
-CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/Dynamic_allocation.cpp > CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.i
+CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/Dynamic_allocation.cpp > CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.i
 
-CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/Dynamic_allocation.cpp -o CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.s
+CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/Dynamic_allocation.cpp -o CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.s
 
 # Object files for target Dynamic_allocation
 Dynamic_allocation_OBJECTS = \
-"CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.o"
+"CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.o"
 
 # External object files for target Dynamic_allocation
 Dynamic_allocation_EXTERNAL_OBJECTS =
 
-Dynamic_allocation: CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.o
+Dynamic_allocation: CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.o
 Dynamic_allocation: CMakeFiles/Dynamic_allocation.dir/build.make
 Dynamic_allocation: CMakeFiles/Dynamic_allocation.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Dynamic_allocation"

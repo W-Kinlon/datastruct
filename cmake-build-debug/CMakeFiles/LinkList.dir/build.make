@@ -76,27 +76,27 @@ include CMakeFiles/LinkList.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LinkList.dir/flags.make
 
-CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.o: CMakeFiles/LinkList.dir/flags.make
-CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.o: ../1LinearList/LinkList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/LinkList.cpp
+CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.o: CMakeFiles/LinkList.dir/flags.make
+CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.o: ../db/1LinearList/LinkList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/LinkList.cpp
 
-CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/LinkList.cpp > CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.i
+CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/LinkList.cpp > CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.i
 
-CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/LinkList.cpp -o CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.s
+CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/LinkList.cpp -o CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.s
 
 # Object files for target LinkList
 LinkList_OBJECTS = \
-"CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.o"
+"CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.o"
 
 # External object files for target LinkList
 LinkList_EXTERNAL_OBJECTS =
 
-LinkList: CMakeFiles/LinkList.dir/1LinearList/LinkList.cpp.o
+LinkList: CMakeFiles/LinkList.dir/db/1LinearList/LinkList.cpp.o
 LinkList: CMakeFiles/LinkList.dir/build.make
 LinkList: CMakeFiles/LinkList.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LinkList"

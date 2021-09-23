@@ -76,27 +76,27 @@ include CMakeFiles/matchBracket.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/matchBracket.dir/flags.make
 
-CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.o: CMakeFiles/matchBracket.dir/flags.make
-CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.o: ../2StackAndQueue/calculateExpression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/calculateExpression.cpp
+CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.o: CMakeFiles/matchBracket.dir/flags.make
+CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.o: ../db/2StackAndQueue/calculateExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/calculateExpression.cpp
 
-CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/calculateExpression.cpp > CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.i
+CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/calculateExpression.cpp > CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.i
 
-CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/calculateExpression.cpp -o CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.s
+CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/calculateExpression.cpp -o CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.s
 
 # Object files for target matchBracket
 matchBracket_OBJECTS = \
-"CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.o"
+"CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.o"
 
 # External object files for target matchBracket
 matchBracket_EXTERNAL_OBJECTS =
 
-matchBracket: CMakeFiles/matchBracket.dir/2StackAndQueue/calculateExpression.cpp.o
+matchBracket: CMakeFiles/matchBracket.dir/db/2StackAndQueue/calculateExpression.cpp.o
 matchBracket: CMakeFiles/matchBracket.dir/build.make
 matchBracket: CMakeFiles/matchBracket.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable matchBracket"

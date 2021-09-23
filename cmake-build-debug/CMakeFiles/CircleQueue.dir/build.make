@@ -76,27 +76,27 @@ include CMakeFiles/CircleQueue.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CircleQueue.dir/flags.make
 
-CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.o: CMakeFiles/CircleQueue.dir/flags.make
-CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.o: ../2StackAndQueue/CircleQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/CircleQueue.cpp
+CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.o: CMakeFiles/CircleQueue.dir/flags.make
+CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.o: ../db/2StackAndQueue/CircleQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/CircleQueue.cpp
 
-CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/CircleQueue.cpp > CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.i
+CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/CircleQueue.cpp > CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.i
 
-CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/2StackAndQueue/CircleQueue.cpp -o CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.s
+CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/2StackAndQueue/CircleQueue.cpp -o CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.s
 
 # Object files for target CircleQueue
 CircleQueue_OBJECTS = \
-"CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.o"
+"CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.o"
 
 # External object files for target CircleQueue
 CircleQueue_EXTERNAL_OBJECTS =
 
-CircleQueue: CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.o
+CircleQueue: CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.o
 CircleQueue: CMakeFiles/CircleQueue.dir/build.make
 CircleQueue: CMakeFiles/CircleQueue.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CircleQueue"

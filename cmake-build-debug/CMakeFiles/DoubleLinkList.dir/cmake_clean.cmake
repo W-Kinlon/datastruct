@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DoubleLinkList.dir/1LinearList/DoubleLinkList.cpp.o"
+  "CMakeFiles/DoubleLinkList.dir/db/1LinearList/DoubleLinkList.cpp.o"
   "DoubleLinkList"
   "DoubleLinkList.pdb"
 )

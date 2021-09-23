@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/FullTree.dir/4Tree/FullTree.cpp.o"
+  "CMakeFiles/FullTree.dir/db/4Tree/FullTree.cpp.o"
   "FullTree"
   "FullTree.pdb"
 )

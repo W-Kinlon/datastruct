@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CircleQueue.dir/2StackAndQueue/CircleQueue.cpp.o"
+  "CMakeFiles/CircleQueue.dir/db/2StackAndQueue/CircleQueue.cpp.o"
   "CircleQueue"
   "CircleQueue.pdb"
 )

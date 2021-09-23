@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/kinlonwong/Desktop/Code/datastruct/8Sort/alogrithms.cpp
+/Users/kinlonwong/Desktop/Code/datastruct/7Sort/alogrithms.cpp
 iostream
-/Users/kinlonwong/Desktop/Code/datastruct/8Sort/iostream
+/Users/kinlonwong/Desktop/Code/datastruct/7Sort/iostream
+vector
+/Users/kinlonwong/Desktop/Code/datastruct/7Sort/vector
 

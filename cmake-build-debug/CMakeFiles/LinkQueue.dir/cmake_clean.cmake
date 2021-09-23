@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LinkQueue.dir/2StackAndQueue/LinkQueue.cpp.o"
+  "CMakeFiles/LinkQueue.dir/db/2StackAndQueue/LinkQueue.cpp.o"
   "LinkQueue"
   "LinkQueue.pdb"
 )

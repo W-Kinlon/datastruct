@@ -1,3 +1,7 @@
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/mutiple_pro_cos.dir
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/144_1.dir
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/130_2.dir
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/de.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/114.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/Floyd.dir
@@ -12,6 +16,7 @@
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/demo1.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/matchBracket.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/1012.dir
+/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/116_2.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/002_reduced_fraction.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/FullTree.dir
 /Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles/Tree.dir

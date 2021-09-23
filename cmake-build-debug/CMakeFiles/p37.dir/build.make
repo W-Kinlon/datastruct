@@ -76,27 +76,27 @@ include CMakeFiles/p37.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/p37.dir/flags.make
 
-CMakeFiles/p37.dir/1LinearList/p37.cpp.o: CMakeFiles/p37.dir/flags.make
-CMakeFiles/p37.dir/1LinearList/p37.cpp.o: ../1LinearList/p37.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p37.dir/1LinearList/p37.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p37.dir/1LinearList/p37.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/p37.cpp
+CMakeFiles/p37.dir/db/1LinearList/p37.cpp.o: CMakeFiles/p37.dir/flags.make
+CMakeFiles/p37.dir/db/1LinearList/p37.cpp.o: ../db/1LinearList/p37.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/p37.dir/db/1LinearList/p37.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/p37.dir/db/1LinearList/p37.cpp.o -c /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/p37.cpp
 
-CMakeFiles/p37.dir/1LinearList/p37.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p37.dir/1LinearList/p37.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/p37.cpp > CMakeFiles/p37.dir/1LinearList/p37.cpp.i
+CMakeFiles/p37.dir/db/1LinearList/p37.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/p37.dir/db/1LinearList/p37.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/p37.cpp > CMakeFiles/p37.dir/db/1LinearList/p37.cpp.i
 
-CMakeFiles/p37.dir/1LinearList/p37.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p37.dir/1LinearList/p37.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/1LinearList/p37.cpp -o CMakeFiles/p37.dir/1LinearList/p37.cpp.s
+CMakeFiles/p37.dir/db/1LinearList/p37.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/p37.dir/db/1LinearList/p37.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kinlonwong/Desktop/Code/datastruct/db/1LinearList/p37.cpp -o CMakeFiles/p37.dir/db/1LinearList/p37.cpp.s
 
 # Object files for target p37
 p37_OBJECTS = \
-"CMakeFiles/p37.dir/1LinearList/p37.cpp.o"
+"CMakeFiles/p37.dir/db/1LinearList/p37.cpp.o"
 
 # External object files for target p37
 p37_EXTERNAL_OBJECTS =
 
-p37: CMakeFiles/p37.dir/1LinearList/p37.cpp.o
+p37: CMakeFiles/p37.dir/db/1LinearList/p37.cpp.o
 p37: CMakeFiles/p37.dir/build.make
 p37: CMakeFiles/p37.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kinlonwong/Desktop/Code/datastruct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable p37"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Dynamic_allocation.dir/1LinearList/Dynamic_allocation.cpp.o"
+  "CMakeFiles/Dynamic_allocation.dir/db/1LinearList/Dynamic_allocation.cpp.o"
   "Dynamic_allocation"
   "Dynamic_allocation.pdb"
 )
